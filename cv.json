@@ -1,0 +1,93 @@
+{
+  "basics": {
+    "name": "Ian Forsey",
+    "label": "Scala Developer",
+    "picture": "http://theon.github.io/cv/avatar.jpg",
+    "email": "forsey@gmail.com",
+    "phone": "07825 051 251",
+    "website": "http://theon.github.io",
+    "summary": "Scala developer, advocate and speaker",
+    "location": {
+      "countryCode": "GB",
+      "region": "Hampshire"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "theon",
+      "url": "https://github.com/theon"
+    },
+    {
+      "network": "Stack Overflow",
+      "username": "theon",
+      "url": "http://stackoverflow.com/users/936869/theon"
+    }]
+  },
+  "work": [{
+    "company": "Net-A-Porter",
+    "position": "Principal Developer",
+    "website": "http://www.net-a-porter.com",
+    "startDate": "2014-11-01",
+    "summary": "Principal Scala Developer in the Product Team. Shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers",
+    "highlights": [
+      "Scala, Akka, Spray",
+      "AWS: EC2, CloudFormation, CloudWatch, S3",
+      "Solr"
+    ]
+  },
+  {
+    "company": "Net-A-Porter",
+    "position": "Senior Developer",
+    "website": "http://www.net-a-porter.com",
+    "startDate": "2010-10-01",
+    "endDate": "2014-11-01",
+    "summary": "Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies",
+    "highlights": [
+      "Scala, Akka, Spray, MySql, node.js",
+      "Introduced Scala to the company, which grew to 15+ production applications as of 2015",
+      "Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack"
+    ]
+  }],
+  "volunteer": [],
+  "education": [{
+    "institution": "Coursera",
+    "area": "Functional Programming Principles in Scala",
+    "startDate": "2013-09-01",
+    "endDate": "2013-11-01",
+    "gpa": "100% - Distinction",
+    "courses": []
+  },
+  {
+    "institution": "Coursera",
+    "area": "Principles of Reactive Programming",
+    "startDate": "2013-11-01",
+    "endDate": "2014-01-01",
+    "gpa": "100% - Distinction",
+    "courses": []
+  },
+  {
+    "institution": "Typesafe",
+    "area": "Scaling up with Akka and Acala",
+    "startDate": "2013-03-01",
+    "endDate": "2013-03-01",
+    "courses": []
+  }],
+  "awards": [],
+  "publications": [],
+  "skills": [{
+    "name": "Scala",
+    "keywords": [
+      "Scala",
+      "Akka",
+      "Spray"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Board Gaming",
+    "keywords": []
+  }],
+  "references": []
+}
