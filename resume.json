@@ -8,8 +8,9 @@
     "website": "http://theon.github.io",
     "summary": "Scala developer, advocate and speaker",
     "location": {
-      "countryCode": "GB",
-      "region": "Hampshire"
+      "city": "Fleet",
+      "region": "Hampshire",
+      "countryCode": "GB"
     },
     "profiles": [{
       "network": "Github",
@@ -27,25 +28,46 @@
     "position": "Principal Developer",
     "website": "http://www.net-a-porter.com",
     "startDate": "2014-11-01",
-    "summary": "Principal Scala Developer in the Product Team. Shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers",
+    "summary": "One of two Principal Developers in a 300 strong IT team. Shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers",
     "highlights": [
       "Scala, Akka, Spray",
-      "AWS: EC2, CloudFormation, CloudWatch, S3",
-      "Solr"
+      "AWS EC2, CloudFormation, CloudWatch, S3",
+      "Speaker at the [March 2015 London Scala Users' Group Meetup](http://www.meetup.com/london-scala/events/221032681)"
     ]
   },
   {
     "company": "Net-A-Porter",
     "position": "Senior Developer",
     "website": "http://www.net-a-porter.com",
-    "startDate": "2010-10-01",
+    "startDate": "2012-07-01",
     "endDate": "2014-11-01",
     "summary": "Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies",
     "highlights": [
       "Scala, Akka, Spray, MySql, node.js",
-      "Introduced Scala to the company, which grew to 15+ production applications as of 2015",
-      "Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack"
+      "Introduced Scala to the company, which has grown to 15+ production applications as of 2015",
+      "Ran internal Scala workshops every few months for 80+ people in total",
+      "Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack",
+      "Authored several open source projects including [scala-uri](https://github.com/NET-A-PORTER/scala-uri) and [precaned](https://github.com/NET-A-PORTER/pre-canned)",
+      "Active member of the Net-A-Porter [techblog](http://techblog.net-a-porter.com/author/i-forsey/)"
     ]
+  },
+  {
+    "company": "Net-A-Porter",
+    "position": "Java Developer",
+    "website": "http://www.net-a-porter.com",
+    "startDate": "2012-07-01",
+    "endDate": "2010-07-01",
+    "summary": "",
+    "highlights": []
+  },
+  {
+    "company": "Net-A-Porter",
+    "position": "Junior Developer",
+    "website": "http://www.net-a-porter.com",
+    "startDate": "2008-12-01",
+    "endDate": "2010-07-01",
+    "summary": "",
+    "highlights": []
   }],
   "volunteer": [],
   "education": [{
