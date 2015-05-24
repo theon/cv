@@ -6,7 +6,7 @@
     "email": "forsey@gmail.com",
     "phone": "07825 051 251",
     "website": "http://theon.github.io/cv",
-    "summary": "I love Scala! I have 4 years experience using Scala, most recently with Akka in AWS to provide highly available and scalable systems. Since introducing Scala at my current role I have made <a href='#opensource'>several open source Scala contributions</a> and <a href='#events'>spoken at Scala events</a>. I am now looking for an exciting role where I can use Scala, AWS, Akka and/or other functional languages in a new industry",
+    "summary": "My name is Ian and I love Scala! I have 9 years development experience, including most recently 4 years working with Scala and Akka in AWS to provide highly available and scalable systems. Since introducing Scala at my current role I have made <a href='#opensource'>several open source Scala contributions</a> and <a href='#events'>spoken at Scala events</a>. I am now looking for an exciting role where I can use Scala, AWS, Akka and/or other functional languages in a new industry",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -131,13 +131,13 @@
     "endDate": "2013-12-01",
     "summary": "Presented our use of the Actor Per Request model for the Wish List API at Net-A-Porter"
   },{
-    "organization": "Edit Amplify: Youth Tech",
+    "organization": "Edit Amplify: Youth Tech - Group Leader",
     "website": "http://techblog.net-a-porter.com/2013/08/labs-team-at-the-youth-tech-event/",
     "startDate": "2013-06-01",
     "endDate": "2013-06-01",
     "summary": "A day of running a workshop for groups of 13-14 year old students, with the aim of getting them excited about working in technology!"
   },{
-    "organization": "Google IO",
+    "organization": "Google IO - Demonstrator",
     "startDate": "2011-05-13",
     "endDate": "2011-05-15",
     "summary": "Demoed the Net-A-Porter GoogleTV App in a booth decked out to look like a living room"
