@@ -27,6 +27,6 @@ THEME_MANAGER_PID=$!
 
 cd $BASE_DIR
 export THEME_SERVER=http://localhost:3000/theme/
-resume export --theme=dark-classy-responsive resume.html
+resume export --theme=dark-classy-responsive index.html
 
 kill $THEME_MANAGER_PID
