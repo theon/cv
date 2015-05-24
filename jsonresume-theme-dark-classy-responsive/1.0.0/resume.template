@@ -22,7 +22,6 @@ body {
 }
 a {
 	color: #aaaaaa;
-	text-decoration: none;
 	-webkit-transition: color 0.175s ease 0.05s;
 	   -moz-transition: color 0.175s ease 0.05s;
 	        transition: color 0.175s ease 0.05s;

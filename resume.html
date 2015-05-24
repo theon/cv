@@ -1,437 +1,361 @@
-<!doctype html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <title> </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- build:css styles/main.css -->
-        <link rel="stylesheet" href="resume.css">
-        <!-- endbuild -->
-        <style type="text/css">
-        @import url(http://fonts.googleapis.com/css?family=Montserrat);
-        @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
-
-        body
-        {
-          font-family : Open Sans;
-          line-height : 23px;
-        }
-
-        img
-        {
-          max-height : 150px;
-        }
-
-        h1,h2,h3,h4,h5,h6
-        {
-          font-family : Montserrat;
-        }
-
-        .section-title
-        {
-          border-bottom-style : solid;
-          border-bottom-width : 1px;
-          border-bottom-color : #EAEDF1;
-          padding-bottom : 0.5em;
-          margin-bottom : 0.5em;
-          margin-top : 1em;
-        }
-        .browsehappy {
-            margin: 0.2em 0;
-            background: #ccc;
-            color: #000;
-            padding: 0.2em 0;
-        }
-
-        .navbar
-        {
-          background-color :white;
-          color : #6C7A89;
-        }
-
-        .name
-        {
-          margin-top : 8px;
-        }
-
-        /*
-        * Professional Experiences
-        */
-
-        .cbp_tmtimeline {
-            margin: 30px 0 0 0;
-            padding: 0;
-            list-style: none;
-            position: relative;
-        }
-
-        /* The line */
-        .cbp_tmtimeline:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 10px;
-            //background:#bdc3c7;
-            background : #EAEDF1;
-            left: 20%;
-            margin-left: -10px;
-        }
-
-        .cbp_tmtimeline > li {
-            position: relative;
-        }
-
-        /* The date/time */
-        .cbp_tmtimeline > li .cbp_tmtime {
-            display: block;
-            width: 25%;
-            padding-right: 100px;
-            position: absolute;
-        }
-
-        .cbp_tmtimeline > li .cbp_tmtime span {
-            display: block;
-            text-align: right;
-        }
-
-        .cbp_tmtimeline > li .cbp_tmtime span:first-child {
-            font-size: 1em;
-            color: #bdd0db;
-        }
-
-        .cbp_tmtimeline > li .cbp_tmtime span:last-child {
-            font-size: 2em;
-            color: #67809F;
-        }
-
-        .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-            color: #67809F ;
-        }
-
-        /* Right content */
-        .cbp_tmtimeline > li .cbp_tmlabel {
-            margin: 0 0 15px 25%;
-            background : white;
-            font-weight: 300;
-            line-height: 1.4;
-            position: relative;
-            border-radius: 4px;
-            border-color : #EAEDF1;
-            border-style : solid;
-        }
-
-        .cbp_tmtimeline > li .cbp_tmlabel h2 {
-            margin-top: 0px;
-            font-size : 1.3em;
-            text-transform : uppercase;
-            padding: 0.5em 0.5em 5px 0.5em;
-            background : #EAEDF1;
-            border-bottom: 1px solid rgba(255,255,255,0.4);
-        }
-
-        .cbp_tmtimeline > li .cbp_tmlabel .company{
-          font-size : 0.7em;
-          float : right;
-        }
-
-        .cbp_tmtimeline > li .cbp_tmlabel .tags{
-
-          padding: 0.5em 0.5em 5px 0.5em;
-        }
-
-        .cbp_tmtimeline > li .cbp_tmlabel .tags .taggroup{
-          text-align : right;
-        }
-
-        .cbp_tmtimeline > li .cbp_tmlabel .tags .taggroup .greenbadge{
-          background-color : #1abc9c;
-        }
-        .cbp_tmtimeline > li .cbp_tmlabel p {
-            padding: 0 0 5px 1em;
-        }
-
-        .cbp_tmtimeline > li .cbp_tmlabel a {
-            color : #67809F;
-        }
-
-
-        /* The triangle */
-        .cbp_tmtimeline > li .cbp_tmlabel:after {
-            right: 100%;
-            border: solid transparent;
-            content: " ";
-            height: 0;
-            width: 0;
-            position: absolute;
-            pointer-events: none;
-
-            border-right-color : #EAEDF1;
-            border-width: 10px;
-            top: 10px;
-        }
-
-        /* The icons */
-        .cbp_tmtimeline > li .cbp_tmicon {
-            width: 40px;
-            height: 40px;
-            speak: none;
-            font-style: normal;
-            font-weight: normal;
-            font-variant: normal;
-            text-transform: none;
-            font-size: 1.4em;
-            line-height: 40px;
-            -webkit-font-smoothing: antialiased;
-            position: absolute;
-            color: #fff;
-            background: #bdc3c7;
-            border-radius: 50%;
-            box-shadow: 0 0 0 5px #95a5a6;
-            text-align: center;
-            left: 20%;
-            top: 0;
-            margin: 0 0 0 -25px;
-        }
-
-        /* Example Media Queries */
-        @media screen and (max-width: 65.375em) {
-
-            .cbp_tmtimeline > li .cbp_tmtime span:last-child {
-                font-size: 1.5em;
-            }
-        }
-
-        @media screen and (max-width: 47.2em) {
-            .cbp_tmtimeline:before {
-                display: none;
-            }
-
-            .cbp_tmtimeline > li .cbp_tmtime {
-                width: 100%;
-                position: relative;
-                padding: 0 0 20px 0;
-            }
-
-            .cbp_tmtimeline > li .cbp_tmtime span {
-                text-align: left;
-            }
-
-            .cbp_tmtimeline > li .cbp_tmlabel {
-                margin: 0 0 30px 0;
-                padding: 1em;
-                font-weight: 400;
-                font-size: 95%;
-            }
-
-            .cbp_tmtimeline > li .cbp_tmlabel:after {
-                right: auto;
-                left: 20px;
-                border-right-color: transparent;
-                border-bottom-color: #3594cb;
-                top: -20px;
-            }
-
-            .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-                border-right-color: transparent;
-                border-bottom-color: #6cbfee;
-            }
-
-            .cbp_tmtimeline > li .cbp_tmicon {
-                position: relative;
-                float: right;
-                left: auto;
-                margin: -55px 5px 0 0px;
-            }
-        }
-
-        #experience
-        {
-          margin-top : 50px;
-        }
-
-        #projects
-        {
-
-        }
-
-        #projects .tagsgroup
-        {
-          text-align : right;
-        }
-
-        .greenbadge
-        {
-          background : #67809F;
-        }
-
-        .darkgreenbadge
-        {
-          background : #67809F;
-        }
-
-        .greybadge
-        {
-            background: #6C7A89;
-        }
-
-
-        </style>
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <div class="container-fluid">
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="container-fluid">
-      <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse">
-                <h2 class="nav navbar-nav navbar-left name"> </h2>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#experience">Professional experience</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-      </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2 class="section-title">About me</h2>
-            </div>
-          </div>
-          <div class="row">
-
-            <div class="col-xs-2">
-              <a class="text-center" href="#">
-                <img class="media-object img-circle" src="">
-              </a>
-            </div>
-            <div class="col-xs-10">
-              <div class="media">
-                <div class="media-body">
-                  <h3>Bio</h3>
-                  <p>
-                    
-                  </p>
-                  <h3>Email</h3>
-                  <p>
-                    
-                  </p>
-                  <h3>Phone Number</h3>
-                  <p>
-                    
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="container" id="experience">
-          <h2 class="section-title">Professional Experience</h2>
-            <ul class="cbp_tmtimeline">
-              <li>
-                  <time class="cbp_tmtime" datetime=""><span>6 months</span> <span>2014</span></time>
-                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
-                  <div class="cbp_tmlabel">
-                      <h2>Principal Developer<span class="company"><a href="http:&#x2F;&#x2F;www.net-a-porter.com">Net-A-Porter</a></span></h2>
-                      <p>
-                      <i>One of two Principal Developers in a 300 strong IT team. Shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers</i>
-                        <ul>
-                          <li>Scala, Akka, Spray</li>
-                          <li>AWS EC2, CloudFormation, CloudWatch, S3</li>
-                          <li>Speaker at the [March 2015 London Scala Users&#39; Group Meetup](http:&#x2F;&#x2F;www.meetup.com&#x2F;london-scala&#x2F;events&#x2F;221032681)</li>
-                        </ul>
-                      </p>
-                  </div>
-              </li>
-              <li>
-                  <time class="cbp_tmtime" datetime=""><span>2 years</span> <span>2012</span></time>
-                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
-                  <div class="cbp_tmlabel">
-                      <h2>Senior Developer<span class="company"><a href="http:&#x2F;&#x2F;www.net-a-porter.com">Net-A-Porter</a></span></h2>
-                      <p>
-                      <i>Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies</i>
-                        <ul>
-                          <li>Scala, Akka, Spray, MySql, node.js</li>
-                          <li>Introduced Scala to the company, which has grown to 15+ production applications as of 2015</li>
-                          <li>Ran internal Scala workshops every few months for 80+ people in total</li>
-                          <li>Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it&#39;s own end-to-end stack</li>
-                          <li>Authored several open source projects including &lt;a href=&#39;https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;scala-uri&#39;&gt;scala-uri&lt;a&gt; and [precaned](https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;pre-canned)</li>
-                          <li>Active member of the Net-A-Porter [techblog](http:&#x2F;&#x2F;techblog.net-a-porter.com&#x2F;author&#x2F;i-forsey&#x2F;)</li>
-                        </ul>
-                      </p>
-                  </div>
-              </li>
-              <li>
-                  <time class="cbp_tmtime" datetime=""><span>-24 months</span> <span>2012</span></time>
-                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
-                  <div class="cbp_tmlabel">
-                      <h2>Java Developer<span class="company"><a href="http:&#x2F;&#x2F;www.net-a-porter.com">Net-A-Porter</a></span></h2>
-                      <p>
-                      <i></i>
-                        <ul>
-                        </ul>
-                      </p>
-                  </div>
-              </li>
-              <li>
-                  <time class="cbp_tmtime" datetime=""><span>1 years</span> <span>2008</span></time>
-                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
-                  <div class="cbp_tmlabel">
-                      <h2>Junior Developer<span class="company"><a href="http:&#x2F;&#x2F;www.net-a-porter.com">Net-A-Porter</a></span></h2>
-                      <p>
-                      <i></i>
-                        <ul>
-                        </ul>
-                      </p>
-                  </div>
-              </li>
-            </ul>
-
-        </div>
-        <br>
-        <div class="container" id="skills">
-          <h2 class="section-title">Skills</h2>
-          <div class="row">
-            <div class="col-xs-12 col-md-6">
-
-              <h4> Scala </h4>
-                <h5><b></b></h5>
-                <span class="badge greenbadge">Scala</span>
-                <span class="badge greenbadge">Akka</span>
-                <span class="badge greenbadge">Spray</span>
-            </div>
-            <br>
-
-          </div>
-        </div>
-<br>
-<br>
-<br>
-<br>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-
-</body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Ian Forsey</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans" />
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+		<style type="text/css">
+/*<!--*/
+body {
+	font-size: 62.5%;
+	font-family: "Montserrat", sans-serif;
+	background-color: #171717;
+	color: #eeeeee;
+}
+.main-wrap {
+	max-width: 960px;
+	margin: 0 auto;
+}
+a {
+	color: #aaaaaa;
+	-webkit-transition: color 0.175s ease 0.05s;
+	   -moz-transition: color 0.175s ease 0.05s;
+	        transition: color 0.175s ease 0.05s;
+}
+a:visited {
+	color: #aaaaaa;
+}
+a:hover,
+a:focus {
+	color: #777777;
+	text-decoration: none;
+}
+.header {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 10%;
+}
+.section {
+	margin-bottom: 6em;
+}
+.section .fa.left {
+	margin-right: 0.25em;
+}
+h1 {
+	color: #eeeeee;
+	font-size: 2em;
+	margin: 1em 0 0;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 3.5em;
+	margin: 0.83em 0;
+	text-transform: uppercase;
+}
+h3 {
+	color: #aaaaaa;
+	font-size: 1.75em;
+	margin: 1em 0 0;
+}
+h4 {
+	color: #666666;
+	font-size: 1.25em;
+	margin: 0 0 1em;
+}
+.profile {
+	font-family: "Montserrat";
+	font-size: 1em;
+	margin: 0;
+}
+.profile-name {
+	display: none;
+}
+.contact-header {
+	font-weight: bold;
+}
+.contact-list li,
+.contact-list a {
+	color: #eeeeee;
+}
+.label {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+.fa {
+	font-size: 2em;
+}
+.left {
+	font-size: 1em;
+}
+.main {
+	margin: 0 10%;
+}
+.skills {
+	margin-bottom: 0.5em;
+}
+p {
+	color: #aaaaaa;
+	font-family: "Open Sans";
+	font-size: 1.5em;
+}
+li {
+	color: #aaaaaa;
+	font-family: "Open Sans";
+	font-size: 1.5em;
+}
+.list-lines,
+.list-lines li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.list-lines li {
+	font-family: "Montserrat";
+	font-size: 1em;
+}
+.list-set,
+.list-set li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.list-set li {
+	font-family: "Montserrat";
+	display: inline-block;
+}
+.list-set li a {
+	display: inline-block;
+}
+.list-set li .fa {
+	min-width: 1em;
+	min-height: 1em;
+}
+/*Minor adjustment to icons.*/
+.list-set li .fa-stack-overflow:before {
+	font-size: 0.9em;
+	position: relative;
+	top: -0.05em;
+}
+.list-set.keywords li {
+	background-color: #444444;
+	color: #eeeeee;
+	padding: 0.5em;
+	font-size: 1.2em;
+	display: inline-block;
+	margin: 0.1em 0;
+}
+.profiles-list {
+	margin-top: 1em;
+}
+blockquote {
+	margin: 2em 1em;
+	padding: 1em;
+	border-left: 0.75em solid #666666;
+	font-family: "Open Sans";
+	font-size: 1.5em;
+}
+blockquote .name {
+	font-weight: bold;
+	font-family: "Montserrat";
+	margin-top: 1em;
+}
+::-moz-selection {
+	background: #666666;
+}
+::selection {
+	background: #666666;
+}
+@media (max-width: 768px) {
+	body {
+		font-size: 50%;
+	}
+	.header {
+		margin: 0 5%;
+	}
+	.main {
+		margin: 0 5%;
+	}
+}
+@media print {
+	body {
+		background: #FFFFFF;
+		color: #171717;
+	}
+	.main-wrap {
+		width: 100%;
+	}
+	.main {
+		margin: 0;
+	}
+	.section {
+		page-break-inside: avoid;
+	}
+	.main .section:last-child {
+		margin-bottom: 0;
+	}
+	a {
+		color: #555555;
+	}
+	a:visited {
+		color: #555555;
+	}
+	a:hover,
+	a:focus {
+		color: #555555;
+	}
+	h1 {
+		color: #111111;
+		margin-top: 0.5em;
+	}
+	h2 {
+		margin: 0.25em 0;
+	}
+	h3 {
+		color: #555555;
+	}
+	h4 {
+		color: #bbbbbb;
+	}
+	.contact-list li,
+	.contact-list a {
+		color: #111111;
+	}
+	p {
+		color: #555555;
+	}
+	li {
+		color: #555555;
+	}
+	.list-set.keywords li {
+		background-color: transparent;
+		color: #555555;
+		border: 1px solid #aaaaaa;
+	}
+	blockquote {
+		border-color: #999999;
+	}
+	* {
+		/*Avoid printing the color at the start of the transition (Chrome issue).*/
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		        transition: none !important;
+		
+	}
+}
+/*-->*/
+		</style>
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="main-wrap">
+			<header class="header">
+				<h1>Ian Forsey</h1>
+				<h3 class="label">Scala Developer</h3>
+				<ul id="contact" class="contact-list list-lines">
+					<li class="contact-header">07825 051 251</li>
+					<li class="contact-header"><a href="mailto:forsey@gmail.com">forsey@gmail.com</a></li>
+					<li class="contact-header"><a href="http:&#x2F;&#x2F;theon.github.io">http:&#x2F;&#x2F;theon.github.io</a></li>
+				</ul>
+				<ul id="profiles" class="profiles-list list-set">
+					<li><a href="https:&#x2F;&#x2F;github.com&#x2F;theon" class="profile" title="Github"><i class="fa fa-github"></i><span class="profile-name">Github</span></a></li>
+					<li><a href="http:&#x2F;&#x2F;stackoverflow.com&#x2F;users&#x2F;936869&#x2F;theon" class="profile" title="Stack Overflow"><i class="fa fa-stack-overflow"></i><span class="profile-name">Stack Overflow</span></a></li>
+				</ul>
+			</header>
+			<main role="main" class="main">
+				<section id="about" class="section">
+					<h2><i class="fa fa-user left"></i>About</h2>
+					<p>Scala developer, advocate and speaker</p>
+				</section>
+				<section id="work" class="section">
+					<h2><i class="fa fa-suitcase left"></i>Work Experience</h2>
+					<section class="section-sub section-sub-job">
+						<h3>Principal Developer, Net-A-Porter</h3>
+						<h4>November 2014 - Present</h4>
+						<p>One of two Principal Developers in a 300 strong IT team. Shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers</p>
+						<h4>Highlights</h4>
+						<ul>
+							<li>Scala, Akka, Spray</li>
+							<li>AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3</li>
+							<li>Speaker at the <a href='http://www.meetup.com/london-scala/events/221032681'>March 2015 London Scala Users' Group Meetup</a></li>
+						</ul>
+					</section>
+					<section class="section-sub section-sub-job">
+						<h3>Senior Developer, Net-A-Porter</h3>
+						<h4>July 2012 - November 2014</h4>
+						<p>Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies</p>
+						<h4>Highlights</h4>
+						<ul>
+							<li>Scala, Akka, Spray, MySql, node.js</li>
+							<li>Introduced Scala to the company, which has grown to 15+ production applications as of 2015</li>
+							<li>Ran internal Scala workshops every few months for 80+ people in total</li>
+							<li>Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack</li>
+							<li>Authored several open source projects including <a href='https://github.com/NET-A-PORTER/scala-uri'>scala-uri<a> and <a href='https://github.com/NET-A-PORTER/pre-canned)'>precaned</a></li>
+							<li>Active member of the Net-A-Porter <a href='http://techblog.net-a-porter.com/author/i-forsey/'>techblog</a></li>
+						</ul>
+					</section>
+					<section class="section-sub section-sub-job">
+						<h3>Java Developer, Net-A-Porter</h3>
+						<h4>July 2012 - July 2010</h4>
+						<p></p>
+					</section>
+					<section class="section-sub section-sub-job">
+						<h3>Junior Developer, Net-A-Porter</h3>
+						<h4>December 2008 - July 2010</h4>
+						<p></p>
+					</section>
+				</section>
+				<section id="education" class="section">
+					<h2><i class="fa fa-graduation-cap left"></i>Education</h2>
+					<section class="section-sub section-sub-education">
+						<h3> - Coursera</h3>
+						<h4>September 2013 - November 2013</h4>
+						<p>Functional Programming Principles in Scala</p>
+					</section>
+					<section class="section-sub section-sub-education">
+						<h3> - Coursera</h3>
+						<h4>November 2013 - January 2014</h4>
+						<p>Principles of Reactive Programming</p>
+					</section>
+					<section class="section-sub section-sub-education">
+						<h3> - Typesafe</h3>
+						<h4>March 2013 - March 2013</h4>
+						<p>Scaling up with Akka and Acala</p>
+					</section>
+				</section>
+				<section id="skills" class="section">
+					<h2><i class="fa fa-tasks left"></i>Skills</h2>
+					<section class="section-sub section-sub-skill">
+						<h3 class="skills">Scala</h3>
+						<ul class="list-set keywords">
+							<li>Scala</li>
+							<li>Akka</li>
+							<li>Spray</li>
+						</ul>
+					</section>
+				</section>
+				<section id="interests" class="section">
+					<h2><i class="fa fa-star left"></i>Interests</h2>
+					<section class="section-sub section-sub-interest">
+						<h3 class="skills">Board Gaming</h3>
+						<ul class="list-set keywords">
+						</ul>
+					</section>
+				</section>
+				<section id="languages" class="section">
+					<h2><i class="fa fa-quote-left left"></i>Languages</h2>
+					<section class="section-sub section-sub-language">
+						<h3>English</h3>
+						<h4>Fluency: Native speaker</h4>
+					</section>
+				</section>
+			</main>
+		</div>
+	</body>
 </html>

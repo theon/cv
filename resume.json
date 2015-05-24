@@ -6,7 +6,7 @@
     "email": "forsey@gmail.com",
     "phone": "07825 051 251",
     "website": "http://theon.github.io",
-    "summary": "Scala developer, advocate and speaker",
+    "summary": "I am a passionate ",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -31,8 +31,8 @@
     "summary": "One of two Principal Developers in a 300 strong IT team. Shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers",
     "highlights": [
       "Scala, Akka, Spray",
-      "AWS EC2, CloudFormation, CloudWatch, S3",
-      "Speaker at the [March 2015 London Scala Users' Group Meetup](http://www.meetup.com/london-scala/events/221032681)"
+      "AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3",
+      "Speaker at the <a href='http://www.meetup.com/london-scala/events/221032681'>March 2015 London Scala Users' Group Meetup</a>"
     ]
   },
   {
@@ -44,11 +44,13 @@
     "summary": "Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies",
     "highlights": [
       "Scala, Akka, Spray, MySql, node.js",
+      "Speaker at <a href='https://skillsmatter.com/skillscasts/4714-scala-does-the-catwalk'>Scala Exchange conference</a>",
       "Introduced Scala to the company, which has grown to 15+ production applications as of 2015",
       "Ran internal Scala workshops every few months for 80+ people in total",
+      "Committer to the popular spray/akka-http library, including <a href='https://github.com/spray/spray/commit/98365ff0cc3fa7448bd4e0f59d80804c9ed48445'>redirection support</a>",
       "Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack",
-      "Authored several open source projects including <a href='https://github.com/NET-A-PORTER/scala-uri'>scala-uri<a> and [precaned](https://github.com/NET-A-PORTER/pre-canned)",
-      "Active member of the Net-A-Porter [techblog](http://techblog.net-a-porter.com/author/i-forsey/)"
+      "Authored several open source projects including <a href='https://github.com/NET-A-PORTER/scala-uri'>scala-uri<a> and <a href='https://github.com/NET-A-PORTER/pre-canned)'>precaned</a>",
+      "Active member of the Net-A-Porter <a href='http://techblog.net-a-porter.com/author/i-forsey/'>techblog</a>"
     ]
   },
   {
