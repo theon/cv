@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Hacky script to generate CV using local theme and theme manager
+# Requires jsonresume-cli to be installed
 
 pushd `dirname $0` > /dev/null
 BASE_DIR=`pwd -P`
@@ -24,6 +26,8 @@ cd target/theme-manager
 
 node server.js &
 THEME_MANAGER_PID=$!
+
+sleep 1 # Classic. Fixes everything.
 
 cd $BASE_DIR
 export THEME_SERVER=http://localhost:3000/theme/

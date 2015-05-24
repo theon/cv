@@ -26,6 +26,9 @@ a {
 	   -moz-transition: color 0.175s ease 0.05s;
 	        transition: color 0.175s ease 0.05s;
 }
+h3 a {
+	text-decoration: none;
+}
 a:visited {
 	color: #aaaaaa;
 }
@@ -44,6 +47,9 @@ a:focus {
 }
 .section .fa.left {
 	margin-right: 0.25em;
+}
+.section-sub > p,h5,ul {
+	margin-left: 20px;
 }
 h1 {
 	color: #eeeeee;
@@ -65,6 +71,11 @@ h4 {
 	color: #666666;
 	font-size: 1.25em;
 	margin: 0 0 1em;
+}
+h5 {
+	color: #666666;
+	font-size: 1.25em;
+	margin-bottom: 0;
 }
 .profile {
 	font-family: "Montserrat";
@@ -217,7 +228,7 @@ blockquote .name {
 	h3 {
 		color: #555555;
 	}
-	h4 {
+	h4,h5 {
 		color: #bbbbbb;
 	}
 	.contact-list li,
@@ -261,17 +272,17 @@ blockquote .name {
 				<ul id="contact" class="contact-list list-lines">
 					<li class="contact-header">07825 051 251</li>
 					<li class="contact-header"><a href="mailto:forsey@gmail.com">forsey@gmail.com</a></li>
-					<li class="contact-header"><a href="http:&#x2F;&#x2F;theon.github.io">http:&#x2F;&#x2F;theon.github.io</a></li>
+					<li class="contact-header"><a href="http:&#x2F;&#x2F;theon.github.io&#x2F;cv">http:&#x2F;&#x2F;theon.github.io&#x2F;cv</a></li>
 				</ul>
 				<ul id="profiles" class="profiles-list list-set">
-					<li><a href="https:&#x2F;&#x2F;github.com&#x2F;theon" class="profile" title="Github"><i class="fa fa-github"></i><span class="profile-name">Github</span></a></li>
+					<li><a href="http:&#x2F;&#x2F;theon.github.io&#x2F;cv" class="profile" title="Github"><i class="fa fa-github"></i><span class="profile-name">Github</span></a></li>
 					<li><a href="http:&#x2F;&#x2F;stackoverflow.com&#x2F;users&#x2F;936869&#x2F;theon" class="profile" title="Stack Overflow"><i class="fa fa-stack-overflow"></i><span class="profile-name">Stack Overflow</span></a></li>
 				</ul>
 			</header>
 			<main role="main" class="main">
 				<section id="about" class="section">
 					<h2><i class="fa fa-user left"></i>About</h2>
-					<p>Scala developer, advocate and speaker</p>
+					<p>I love Scala! I have 4 years experience using Scala, most recently with Akka in AWS to provide highly available and scalable systems. Since introducing Scala at my current role I have made <a href='#opensource'>several open source Scala contributions</a> and <a href='#events'>spoken at Scala events</a>. I am now looking for an exciting role where I can use Scala, AWS, Akka and/or other functional languages in a new industry</p>
 				</section>
 				<section id="work" class="section">
 					<h2><i class="fa fa-suitcase left"></i>Work Experience</h2>
@@ -279,67 +290,120 @@ blockquote .name {
 						<h3>Principal Developer, Net-A-Porter</h3>
 						<h4>November 2014 - Present</h4>
 						<p>One of two Principal Developers in a 300 strong IT team. Shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers</p>
-						<h4>Highlights</h4>
+						<h5>Highlights</h5>
 						<ul>
-							<li>Scala, Akka, Spray</li>
+							<li>Scala, Akka, Spray, Gatling</li>
 							<li>AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3</li>
-							<li>Speaker at the <a href='http://www.meetup.com/london-scala/events/221032681'>March 2015 London Scala Users' Group Meetup</a></li>
+							<li>Successfully served thousands of req/sec from the Net-A-Porter RESTful product API on sale days</li>
+							<li>Ran internal <a href='https://github.com/NET-A-PORTER/scala-beginner-workshop'>Scala workshops</a> many times over the last two years for a total of 80+ people</li>
 						</ul>
 					</section>
 					<section class="section-sub section-sub-job">
 						<h3>Senior Developer, Net-A-Porter</h3>
-						<h4>July 2012 - November 2014</h4>
-						<p>Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies</p>
-						<h4>Highlights</h4>
+						<h4>December 2013 - November 2014</h4>
+						<p>Member of the Product Team, building the Net-A-Porter product API</p>
+						<h5>Highlights</h5>
 						<ul>
-							<li>Scala, Akka, Spray, MySql, node.js</li>
-							<li>Introduced Scala to the company, which has grown to 15+ production applications as of 2015</li>
-							<li>Ran internal Scala workshops every few months for 80+ people in total</li>
-							<li>Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack</li>
-							<li>Authored several open source projects including <a href='https://github.com/NET-A-PORTER/scala-uri'>scala-uri<a> and <a href='https://github.com/NET-A-PORTER/pre-canned)'>precaned</a></li>
+							<li>Scala, Akka, Spray, Solr</li>
+							<li>Committer to the popular spray/akka-http library, contributing <a href='https://github.com/spray/spray/commit/98365ff0cc3fa7448bd4e0f59d80804c9ed48445'>redirection support</a></li>
 							<li>Active member of the Net-A-Porter <a href='http://techblog.net-a-porter.com/author/i-forsey/'>techblog</a></li>
 						</ul>
 					</section>
 					<section class="section-sub section-sub-job">
 						<h3>Java Developer, Net-A-Porter</h3>
-						<h4>July 2012 - July 2010</h4>
-						<p></p>
+						<h4>May 2010 - December 2013</h4>
+						<p>Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies</p>
+						<h5>Highlights</h5>
+						<ul>
+							<li>Scala, Akka, Spray, MySql, Lift, Java, Spring</li>
+							<li>Worked on many small projects, including the Net-A-Porter iPad magazine, a GoogleTV shopping app, visual similarity product indexer and new Wish List stack</li>
+							<li>Introduced Scala to the company, which has grown to 15+ production applications, across 7+ teams as of 2015</li>
+							<li>Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack</li>
+						</ul>
 					</section>
 					<section class="section-sub section-sub-job">
-						<h3>Junior Developer, Net-A-Porter</h3>
-						<h4>December 2008 - July 2010</h4>
-						<p></p>
+						<h3>Junior Java Developer, Net-A-Porter</h3>
+						<h4>December 2008 - May 2010</h4>
+						<p>Adding features and bug fixing for the Net-A-Porter site. Worked on the release of theOutnet, the sister sites for Net-A-Porter</p>
+					</section>
+					<section class="section-sub section-sub-job">
+						<h3>Junior Java Developer, Avenca</h3>
+						<h4>June 2006 - July 2008</h4>
+						<p>Created applications to analyse data from black box recorders for high speed trains, oil tankers and cruise liners</p>
 					</section>
 				</section>
+
+				<section id="work" class="section">
+					<a name="events"></a>
+					<h2><i class="fa fa-group left"></i>Events</h2>
+					<section class="section-sub section-sub-job">
+						<h3>London Scala Users&#39; Group - Speaker</h3>
+						<h4>March 2015</h4>
+						<p>Presented lessons learned whilst building the Net-A-Poter RESTful Product API in Scala and Spray</p>
+					</section>
+					<section class="section-sub section-sub-job">
+						<h3>Scala eXchange Conference - Speaker</h3>
+						<h4>December 2013</h4>
+						<p>Presented our use of the Actor Per Request model for the Wish List API at Net-A-Porter</p>
+					</section>
+					<section class="section-sub section-sub-job">
+						<h3>Edit Amplify: Youth Tech</h3>
+						<h4>June 2013</h4>
+						<p>A day of running a workshop for groups of 13-14 year old students, with the aim of getting them excited about working in technology!</p>
+					</section>
+					<section class="section-sub section-sub-job">
+						<h3>Google IO</h3>
+						<h4>May 2011</h4>
+						<p>Demoed the Net-A-Porter GoogleTV App in a booth decked out to look like a living room</p>
+					</section>
+				</section>
+
+
+				<section id="publications" class="section">
+					<a name="opensource"></a>
+					<h2><i class="fa fa-github left"></i>Open Source Contributions</h2>
+					<section class="section-sub section-sub-publication">
+						<h3><a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;scala-uri">scala-uri (121 stars, 24 forks)</a></h3>
+						<h4>  </h4>
+						<p>Simple scala library for building and parsing URIs (<a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;scala-uri">link</a>)</p>
+					</section>
+					<section class="section-sub section-sub-publication">
+						<h3><a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;spray-actor-per-request">spray-actor-per-request (83 stars, 21 forks)</a></h3>
+						<h4>  </h4>
+						<p>Example spray application that uses the actor per request model (<a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;spray-actor-per-request">link</a>)</p>
+					</section>
+					<section class="section-sub section-sub-publication">
+						<h3><a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;pre-canned">pre-canned (21 stars, 9 forks)</a></h3>
+						<h4>  </h4>
+						<p>Mocking HTTP services on spray-can for integration testing (<a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;pre-canned">link</a>)</p>
+					</section>
+				</section>
+
 				<section id="education" class="section">
 					<h2><i class="fa fa-graduation-cap left"></i>Education</h2>
 					<section class="section-sub section-sub-education">
-						<h3> - Coursera</h3>
+						<h3>Coursera</h3>
 						<h4>September 2013 - November 2013</h4>
-						<p>Functional Programming Principles in Scala</p>
+						<p>Functional Programming Principles in Scala (100%, Distinction)</p>
 					</section>
 					<section class="section-sub section-sub-education">
-						<h3> - Coursera</h3>
+						<h3>Coursera</h3>
 						<h4>November 2013 - January 2014</h4>
-						<p>Principles of Reactive Programming</p>
+						<p>Principles of Reactive Programming (100%, Distinction)</p>
 					</section>
 					<section class="section-sub section-sub-education">
-						<h3> - Typesafe</h3>
+						<h3>Typesafe</h3>
 						<h4>March 2013 - March 2013</h4>
 						<p>Scaling up with Akka and Acala</p>
 					</section>
-				</section>
-				<section id="skills" class="section">
-					<h2><i class="fa fa-tasks left"></i>Skills</h2>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Scala</h3>
-						<ul class="list-set keywords">
-							<li>Scala</li>
-							<li>Akka</li>
-							<li>Spray</li>
-						</ul>
+					<section class="section-sub section-sub-education">
+						<h3>Solent University</h3>
+						<h4>September 2003 - June 2006</h4>
+						<p>Software Engineering (First Class Honours)</p>
 					</section>
 				</section>
+
+
 				<section id="interests" class="section">
 					<h2><i class="fa fa-star left"></i>Interests</h2>
 					<section class="section-sub section-sub-interest">
@@ -347,12 +411,10 @@ blockquote .name {
 						<ul class="list-set keywords">
 						</ul>
 					</section>
-				</section>
-				<section id="languages" class="section">
-					<h2><i class="fa fa-quote-left left"></i>Languages</h2>
-					<section class="section-sub section-sub-language">
-						<h3>English</h3>
-						<h4>Fluency: Native speaker</h4>
+					<section class="section-sub section-sub-interest">
+						<h3 class="skills">Internet of Things + Home Automation (Arduino&#x2F;Raspberry Pi&#x2F;ZWave)</h3>
+						<ul class="list-set keywords">
+						</ul>
 					</section>
 				</section>
 			</main>

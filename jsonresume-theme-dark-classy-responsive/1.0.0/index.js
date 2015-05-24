@@ -74,7 +74,7 @@ function render(resumeObject) {
 	if (resumeObject.basics.phone) {
 		resumeObject.phoneBool = true;
 	}
-	
+
 	if (resumeObject.basics.website) {
 		resumeObject.websiteBool = true;
 	}
@@ -130,6 +130,22 @@ function render(resumeObject) {
 				}
 				if (w.highlights && w.highlights[0] && w.highlights[0] !== '') {
 					w.workHighlights = true;
+				}
+			});
+		}
+	}
+
+	if (resumeObject.volunteer) {
+		if (resumeObject.volunteer[0] && resumeObject.volunteer[0].organization) {
+			resumeObject.volunteerBool = true;
+			_.each(resumeObject.volunteer, function(v) {
+				var date;
+				if (v.startDate) {
+					date = parseDate(v.startDate);
+					v.startDateYear = date.year || '';
+					if (date.month) {
+						v.startDateMonth = getMonth(date.month) + ' ';
+					}
 				}
 			});
 		}

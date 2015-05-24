@@ -26,6 +26,9 @@ a {
 	   -moz-transition: color 0.175s ease 0.05s;
 	        transition: color 0.175s ease 0.05s;
 }
+h3 a {
+	text-decoration: none;
+}
 a:visited {
 	color: #aaaaaa;
 }
@@ -44,6 +47,9 @@ a:focus {
 }
 .section .fa.left {
 	margin-right: 0.25em;
+}
+.section-sub > p,h5,ul {
+	margin-left: 20px;
 }
 h1 {
 	color: #eeeeee;
@@ -65,6 +71,11 @@ h4 {
 	color: #666666;
 	font-size: 1.25em;
 	margin: 0 0 1em;
+}
+h5 {
+	color: #666666;
+	font-size: 1.25em;
+	margin-bottom: 0;
 }
 .profile {
 	font-family: "Montserrat";
@@ -217,7 +228,7 @@ blockquote .name {
 	h3 {
 		color: #555555;
 	}
-	h4 {
+	h4,h5 {
 		color: #bbbbbb;
 	}
 	.contact-list li,
@@ -279,7 +290,7 @@ blockquote .name {
 				{{#aboutBool}}
 				<section id="about" class="section">
 					<h2><i class="fa fa-user left"></i>About</h2>
-					<p>{{basics.summary}}</p>
+					<p>{{{basics.summary}}}</p>
 				</section>
 				{{/aboutBool}}
 				{{#workBool}}
@@ -291,7 +302,7 @@ blockquote .name {
 						<h4>{{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}</h4>
 						<p>{{summary}}</p>
 						{{#workHighlights}}
-						<h4>Highlights</h4>
+						<h5>Highlights</h5>
 						<ul>
 						{{#highlights}}
 							<li>{{{.}}}</li>
@@ -302,16 +313,58 @@ blockquote .name {
 					{{/work}}
 				</section>
 				{{/workBool}}
+
+				{{#volunteerBool}}
+				<section id="work" class="section">
+					<a name="events"></a>
+					<h2><i class="fa fa-group left"></i>Events</h2>
+					{{#volunteer}}
+					<section class="section-sub section-sub-job">
+						<h3>{{organization}}</h3>
+						<h4>{{startDateMonth}}{{startDateYear}}</h4>
+						<p>{{summary}}</p>
+					</section>
+					{{/volunteer}}
+				</section>
+				{{/volunteerBool}}
+
+				{{#awardsBool}}
+				<section id="awards" class="section">
+					<h2><i class="fa fa-trophy left"></i>Awards</h2>
+					{{#awards}}
+					<section class="section-sub section-sub-award">
+						<h3>{{title}} - {{awarder}}</h3>
+						<h4>{{day}} {{month}} {{year}}</h4>
+						<p>{{summary}}</p>
+					</section>
+					{{/awards}}
+				</section>
+				{{/awardsBool}}
+
+				{{#publicationsBool}}
+				<section id="publications" class="section">
+					<a name="opensource"></a>
+					<h2><i class="fa fa-github left"></i>Open Source Contributions</h2>
+					{{#publications}}
+					<section class="section-sub section-sub-publication">
+						<h3><a href="{{website}}">{{name}}</a></h3>
+						<h4>{{day}} {{month}} {{year}}</h4>
+						<p>{{summary}} (<a href="{{website}}">link</a>)</p>
+					</section>
+					{{/publications}}
+				</section>
+				{{/publicationsBool}}
+
 				{{#educationBool}}
 				<section id="education" class="section">
 					<h2><i class="fa fa-graduation-cap left"></i>Education</h2>
 					{{#education}}
 					<section class="section-sub section-sub-education">
-						<h3>{{studyType}} - {{institution}}</h3>
+						<h3>{{institution}}</h3>
 						<h4>{{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}</h4>
 						<p>{{area}}</p>
 						{{#educationCourses}}
-						<h4>Courses</h4>
+						<h5>Courses</h5>
 						<ul>
 						{{#courses}}
 							<li>{{.}}</li>
@@ -322,6 +375,7 @@ blockquote .name {
 					{{/education}}
 				</section>
 				{{/educationBool}}
+
 				{{#skillsBool}}
 				<section id="skills" class="section">
 					<h2><i class="fa fa-tasks left"></i>Skills</h2>
@@ -337,31 +391,7 @@ blockquote .name {
 					{{/skills}}
 				</section>
 				{{/skillsBool}}
-				{{#awardsBool}}
-				<section id="awards" class="section">
-					<h2><i class="fa fa-trophy left"></i>Awards</h2>
-					{{#awards}}
-					<section class="section-sub section-sub-award">
-						<h3>{{title}} - {{awarder}}</h3>
-						<h4>{{day}} {{month}} {{year}}</h4>
-						<p>{{summary}}</p>
-					</section>
-					{{/awards}}
-				</section>
-				{{/awardsBool}}
-				{{#publicationsBool}}
-				<section id="publications" class="section">
-					<h2><i class="fa fa-book left"></i>Publications</h2>
-					{{#publications}}
-					<section class="section-sub section-sub-publication">
-						<h3>{{name}}</h3>
-						<h4>{{day}} {{month}} {{year}}</h4>
-						<p>{{summary}}</p>
-						<h4>Website: <a href="{{website}}">{{website}}</a></h4>
-					</section>
-					{{/publications}}
-				</section>
-				{{/publicationsBool}}
+
 				{{#interestsBool}}
 				<section id="interests" class="section">
 					<h2><i class="fa fa-star left"></i>Interests</h2>
@@ -383,7 +413,7 @@ blockquote .name {
 					{{#languages}}
 					<section class="section-sub section-sub-language">
 						<h3>{{language}}</h3>
-						<h4>Fluency: {{fluency}}</h4>
+						<h5>Fluency: {{fluency}}</h5>
 					</section>
 					{{/languages}}
 				</section>

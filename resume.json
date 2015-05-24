@@ -5,8 +5,8 @@
     "picture": "http://theon.github.io/cv/avatar.jpg",
     "email": "forsey@gmail.com",
     "phone": "07825 051 251",
-    "website": "http://theon.github.io",
-    "summary": "I am a passionate ",
+    "website": "http://theon.github.io/cv",
+    "summary": "I love Scala! I have 4 years experience using Scala, most recently with Akka in AWS to provide highly available and scalable systems. Since introducing Scala at my current role I have made <a href='#opensource'>several open source Scala contributions</a> and <a href='#events'>spoken at Scala events</a>. I am now looking for an exciting role where I can use Scala, AWS, Akka and/or other functional languages in a new industry",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -32,62 +32,61 @@
     "highlights": [
       "Scala, Akka, Spray, Gatling",
       "AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3",
-      "Speaker at the <a href='http://www.meetup.com/london-scala/events/221032681'>March 2015 London Scala Users' Group Meetup</a>",
-      "Responsible for building the RESTful product API and deploying onto AWS",
-
+      "Successfully served thousands of req/sec from the Net-A-Porter RESTful product API on sale days",
+      "Ran internal <a href='https://github.com/NET-A-PORTER/scala-beginner-workshop'>Scala workshops</a> many times over the last two years for a total of 80+ people"
     ]
-  },
-  {
+  },{
     "company": "Net-A-Porter",
     "position": "Senior Developer",
     "website": "http://www.net-a-porter.com",
-    "startDate": "2012-07-01",
+    "startDate": "2013-12-01",
     "endDate": "2014-11-01",
-    "summary": "Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies",
+    "summary": "Member of the Product Team, building the Net-A-Porter product API",
     "highlights": [
-      "Scala, Akka, Spray, MySql, node.js",
-      "Speaker at <a href='https://skillsmatter.com/skillscasts/4714-scala-does-the-catwalk'>Scala Exchange conference</a>",
-      "Introduced Scala to the company, which has grown to 15+ production applications as of 2015",
-      "Ran internal Scala workshops every few months for 80+ people in total",
-      "Committer to the popular spray/akka-http library, including <a href='https://github.com/spray/spray/commit/98365ff0cc3fa7448bd4e0f59d80804c9ed48445'>redirection support</a>",
-      "Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack",
-      "Authored several open source projects including <a href='https://github.com/NET-A-PORTER/scala-uri'>scala-uri<a> and <a href='https://github.com/NET-A-PORTER/pre-canned)'>precaned</a>",
+      "Scala, Akka, Spray, Solr",
+      "Committer to the popular spray/akka-http library, contributing <a href='https://github.com/spray/spray/commit/98365ff0cc3fa7448bd4e0f59d80804c9ed48445'>redirection support</a>",
       "Active member of the Net-A-Porter <a href='http://techblog.net-a-porter.com/author/i-forsey/'>techblog</a>"
     ]
-  },
-  {
+  },{
     "company": "Net-A-Porter",
     "position": "Java Developer",
     "website": "http://www.net-a-porter.com",
-    "startDate": "2012-07-01",
-    "endDate": "2010-07-01",
-    "summary": "",
-    "highlights": []
-  },
-  {
+    "startDate": "2010-05-01",
+    "endDate": "2013-12-01",
+    "summary": "Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies",
+    "highlights": [
+      "Scala, Akka, Spray, MySql, Lift, Java, Spring",
+      "Worked on many small projects, including the Net-A-Porter iPad magazine, a GoogleTV shopping app, visual similarity product indexer and new Wish List stack",
+      "Introduced Scala to the company, which has grown to 15+ production applications, across 7+ teams as of 2015",
+      "Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack"
+    ]
+  },{
     "company": "Net-A-Porter",
-    "position": "Junior Developer",
+    "position": "Junior Java Developer",
     "website": "http://www.net-a-porter.com",
     "startDate": "2008-12-01",
-    "endDate": "2010-07-01",
-    "summary": "",
-    "highlights": []
+    "endDate": "2010-05-01",
+    "summary": "Adding features and bug fixing for the Net-A-Porter site. Worked on the release of theOutnet, the sister sites for Net-A-Porter"
+  },{
+    "company": "Avenca",
+    "position": "Junior Java Developer",
+    "website": "http://www.avenca.co.uk",
+    "startDate": "2006-06-01",
+    "endDate": "2008-07-01",
+    "summary": "Created applications to analyse data from black box recorders for high speed trains, oil tankers and cruise liners"
   }],
-  "volunteer": [],
   "education": [{
     "institution": "Coursera",
-    "area": "Functional Programming Principles in Scala",
+    "area": "Functional Programming Principles in Scala (100%, Distinction)",
     "startDate": "2013-09-01",
     "endDate": "2013-11-01",
-    "gpa": "100% - Distinction",
     "courses": []
   },
   {
     "institution": "Coursera",
-    "area": "Principles of Reactive Programming",
+    "area": "Principles of Reactive Programming (100%, Distinction)",
     "startDate": "2013-11-01",
     "endDate": "2014-01-01",
-    "gpa": "100% - Distinction",
     "courses": []
   },
   {
@@ -96,24 +95,60 @@
     "startDate": "2013-03-01",
     "endDate": "2013-03-01",
     "courses": []
+  },
+  {
+    "institution": "Solent University",
+    "area": "Software Engineering (First Class Honours)",
+    "startDate": "2003-09-01",
+    "endDate": "2006-06-01",
+    "courses": []
+  }],
+  "publications": [{
+    "name": "scala-uri (121 stars, 24 forks)",
+    "website": "https://github.com/NET-A-PORTER/scala-uri",
+    "summary": "Simple scala library for building and parsing URIs"
+  },
+  {
+    "name": "spray-actor-per-request (83 stars, 21 forks)",
+    "website": "https://github.com/NET-A-PORTER/spray-actor-per-request",
+    "summary": "Example spray application that uses the actor per request model"
+  },
+  {
+    "name": "pre-canned (21 stars, 9 forks)",
+    "website": "https://github.com/NET-A-PORTER/pre-canned",
+    "summary": "Mocking HTTP services on spray-can for integration testing"
+  }],
+  "volunteer": [{
+    "organization": "London Scala Users' Group - Speaker",
+    "website": "http://www.meetup.com/london-scala/events/221032681",
+    "startDate": "2015-03-01",
+    "endDate": "2015-03-01",
+    "summary": "Presented lessons learned whilst building the Net-A-Poter RESTful Product API in Scala and Spray"
+  },{
+    "organization": "Scala eXchange Conference - Speaker",
+    "website": "https://skillsmatter.com/skillscasts/4714-scala-does-the-catwalk",
+    "startDate": "2013-12-01",
+    "endDate": "2013-12-01",
+    "summary": "Presented our use of the Actor Per Request model for the Wish List API at Net-A-Porter"
+  },{
+    "organization": "Edit Amplify: Youth Tech",
+    "website": "http://techblog.net-a-porter.com/2013/08/labs-team-at-the-youth-tech-event/",
+    "startDate": "2013-06-01",
+    "endDate": "2013-06-01",
+    "summary": "A day of running a workshop for groups of 13-14 year old students, with the aim of getting them excited about working in technology!"
+  },{
+    "organization": "Google IO",
+    "startDate": "2011-05-13",
+    "endDate": "2011-05-15",
+    "summary": "Demoed the Net-A-Porter GoogleTV App in a booth decked out to look like a living room"
   }],
   "awards": [],
-  "publications": [],
-  "skills": [{
-    "name": "Scala",
-    "keywords": [
-      "Scala",
-      "Akka",
-      "Spray"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
+  "skills": [],
+  "languages": [],
   "interests": [{
-    "name": "Board Gaming",
-    "keywords": []
+    "name": "Board Gaming"
+  },{
+    "name": "Internet of Things + Home Automation (Arduino/Raspberry Pi/ZWave)"
   }],
   "references": []
 }
