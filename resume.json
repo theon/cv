@@ -6,7 +6,7 @@
     "email": "forsey@gmail.com",
     "phone": "07825 051 251",
     "website": "http://theon.github.io/cv",
-    "summary": "My name is Ian and I love Scala! I have 9 years development experience, including most recently 4 years working with Scala and Akka in AWS to provide highly available and scalable systems. Since introducing Scala at my current role I have made <a href='#opensource'>several open source Scala contributions</a> and <a href='#events'>spoken at Scala events</a>. I am now looking for an exciting role where I can use Scala, AWS, Akka and/or other functional languages in a new industry",
+    "summary": "My name is Ian and I love Scala! I have 9 years development experience, including most recently 4 years working with Scala and Akka in AWS to provide highly available and scalable systems. I introduced Scala to Net-A-Porter and have since made <a href='#opensource'>several open source Scala contributions</a> and <a href='#events'>spoken at Scala events</a>. I am now looking for an exciting role where I can use Scala, AWS, Akka and/or other functional languages",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -28,7 +28,7 @@
     "position": "Principal Developer",
     "website": "http://www.net-a-porter.com",
     "startDate": "2014-11-01",
-    "summary": "One of two Principal Developers in a 300 strong IT team. Shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers",
+    "summary": "One of two Principal Developers in a 300 strong IT team. Working in a agile environment, shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers",
     "highlights": [
       "Scala, Akka, Spray, Gatling",
       "AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3",
@@ -146,9 +146,16 @@
   "skills": [],
   "languages": [],
   "interests": [{
-    "name": "Board Gaming"
+    "name": "Board Gaming",
+    "keywords": [
+      "Started the weekly gaming group at Net-A-Porter"
+    ]
   },{
-    "name": "Internet of Things + Home Automation (Arduino/Raspberry Pi/ZWave)"
+    "name": "Internet of Things",
+    "keywords": [
+      "<a href='http://theon.github.io/plant-watering-with-arduino.html'>Arduino Chilli Plant Watering System</a>",
+      "Raspberry Pi + ZWave Home Automation"
+    ]
   }],
   "references": []
 }

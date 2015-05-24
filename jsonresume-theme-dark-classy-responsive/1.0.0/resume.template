@@ -398,9 +398,9 @@ blockquote .name {
 					{{#interests}}
 					<section class="section-sub section-sub-interest">
 						<h3 class="skills">{{name}}</h3>
-						<ul class="list-set keywords">
+						<ul>
 						{{#keywords}}
-							<li>{{.}}</li>
+							<li>{{{.}}}</li>
 						{{/keywords}}
 						</ul>
 					</section>
