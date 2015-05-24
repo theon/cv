@@ -344,7 +344,7 @@ blockquote .name {
 				{{#publicationsBool}}
 				<section id="publications" class="section">
 					<a name="opensource"></a>
-					<h2><i class="fa fa-github left"></i>Open Source Contributions</h2>
+					<h2><i class="fa fa-github left"></i>Open Source Projects</h2>
 					{{#publications}}
 					<section class="section-sub section-sub-publication">
 						<h3><a href="{{website}}">{{name}}</a></h3>
