@@ -202,9 +202,9 @@ blockquote .name {
 	.main {
 		margin: 0;
 	}
-	.section {
+/*	.section {
 		page-break-inside: avoid;
-	}
+	}*/
 	.main .section:last-child {
 		margin-bottom: 0;
 	}
@@ -277,7 +277,7 @@ blockquote .name {
 					<li class="contact-header"><a href="mailto:{{basics.email}}">{{basics.email}}</a></li>
 				{{/emailBool}}
 				{{#websiteBool}}
-					<li class="contact-header"><a href="{{basics.website}}">{{basics.website}}</a></li>
+					<li class="contact-header"><a href="{{basics.website}}">{{basics.website}}</a> (<a href="{{basics.pdfLink}}">PDF</a>)</li>
 				{{/websiteBool}}
 				</ul>
 				<ul id="profiles" class="profiles-list list-set">

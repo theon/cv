@@ -6,7 +6,8 @@
     "email": "forsey@gmail.com",
     "phone": "07825 051 251",
     "website": "http://theon.github.io/cv",
-    "summary": "My name is Ian and I love Scala! I have 9 years development experience, including most recently 4 years working with Scala and Akka in AWS to provide highly available and scalable systems. I introduced Scala to Net-A-Porter and have since made <a href='#opensource'>several open source Scala contributions</a> and <a href='#events'>spoken at Scala events</a>. I am now looking for an exciting role where I can use Scala, AWS, Akka and/or other functional languages",
+    "pdfLink": "http://theon.github.io/cv/ian-forsey-resume.pdf",
+    "summary": "My name is Ian and I love Scala! I have 9 years development experience, including most recently 4 years working with Scala and Akka in AWS to provide highly available and scalable systems. I introduced Scala to Net-A-Porter and have since made <a href='http://theon.github.io/cv#opensource'>several open source Scala contributions</a> and <a href='http://theon.github.io/cv#events'>spoken at Scala events</a>. I am now looking for an exciting role where I can use Scala, AWS, Akka and/or other functional languages",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
