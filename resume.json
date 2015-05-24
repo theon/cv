@@ -15,7 +15,7 @@
     "profiles": [{
       "network": "Github",
       "username": "theon",
-      "url": "https://github.com/theon"
+      "url": "http://theon.github.io/cv"
     },
     {
       "network": "Stack Overflow",
@@ -30,9 +30,11 @@
     "startDate": "2014-11-01",
     "summary": "One of two Principal Developers in a 300 strong IT team. Shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers",
     "highlights": [
-      "Scala, Akka, Spray",
+      "Scala, Akka, Spray, Gatling",
       "AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3",
-      "Speaker at the <a href='http://www.meetup.com/london-scala/events/221032681'>March 2015 London Scala Users' Group Meetup</a>"
+      "Speaker at the <a href='http://www.meetup.com/london-scala/events/221032681'>March 2015 London Scala Users' Group Meetup</a>",
+      "Responsible for building the RESTful product API and deploying onto AWS",
+
     ]
   },
   {
