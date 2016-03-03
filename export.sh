@@ -26,8 +26,9 @@ cd target/theme-manager
 
 node server.js &
 THEME_MANAGER_PID=$!
+echo "Theme manager running as process $THEME_MANAGER_PID"
 
-sleep 1 # Classic. Fixes everything.
+sleep 5 # Classic. Fixes everything.
 
 cd $BASE_DIR
 export THEME_SERVER=http://localhost:3000/theme/
