@@ -105,17 +105,17 @@
     "courses": []
   }],
   "publications": [{
-    "name": "scala-uri (160 stars, 24 forks)",
+    "name": "scala-uri (183 stars, 29 forks)",
     "website": "https://github.com/NET-A-PORTER/scala-uri",
     "summary": "Simple scala library for building and parsing URIs"
   },
   {
-    "name": "spray-actor-per-request (101 stars, 21 forks)",
+    "name": "spray-actor-per-request (118 stars, 30 forks)",
     "website": "https://github.com/NET-A-PORTER/spray-actor-per-request",
     "summary": "Example spray application that uses the actor per request model"
   },
   {
-    "name": "pre-canned (26 stars, 9 forks)",
+    "name": "pre-canned (29 stars, 11 forks)",
     "website": "https://github.com/NET-A-PORTER/pre-canned",
     "summary": "Mocking HTTP services on spray-can for integration testing"
   }],
