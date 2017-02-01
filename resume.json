@@ -7,7 +7,7 @@
     "phone": "07825 051 251",
     "website": "http://theon.github.io/cv",
     "pdfLink": "http://theon.github.io/cv/ian-forsey-resume.pdf",
-    "summary": "My name is Ian and I love Scala! I will be a full-time dad through until at least Feb 2017, and am not looking for roles.\n I have 10 years development experience, including most recently 4 years working with Scala and Akka in AWS to provide highly available and scalable systems. I introduced Scala to Net-A-Porter and have since made <a href='http://theon.github.io/cv#opensource'>several open source Scala contributions</a> and <a href='http://theon.github.io/cv#events'>spoken at Scala events</a>.",
+    "summary": "My name is Ian and I love Scala! I have 10 years development experience, including most recently 4 years working with Scala and Akka in AWS to provide highly available and scalable systems. I introduced Scala to Net-A-Porter and have since made <a href='http://theon.github.io/cv#opensource'>several open source Scala contributions</a> and <a href='http://theon.github.io/cv#events'>spoken at Scala events</a>. I am currently available for Scala contracting roles.",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -29,7 +29,8 @@
     "position": "Principal Developer",
     "website": "http://www.net-a-porter.com",
     "startDate": "2014-11-01",
-    "summary": "One of two Principal Developers in a 300 strong IT team. Working in a agile environment, shaping the technical direction of the Product Team by ensuring we build available, scalable and fault tolerant applications that expose product data to our customers",
+    "endDate": "2017-01-27",
+    "summary": "One of four Principal Developers in a 300 strong IT team. Working in a agile environment, shaping the technical direction of the Product Team by building available, scalable and fault tolerant applications that expose product data to the customer",
     "highlights": [
       "Scala, Akka, Spray, Gatling",
       "AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3",
