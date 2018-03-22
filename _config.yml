@@ -1,1 +1,3 @@
-exclude: jsonresume-theme-dark-classy-responsive
+exclude:
+ - jsonresume-theme-dark-classy-responsive
+ - lemonlabs-jsonresume-theme

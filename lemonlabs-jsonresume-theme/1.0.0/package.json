@@ -1,0 +1,29 @@
+{
+  "name": "lemonlabs-jsonresume-theme",
+  "version": "1.0.0",
+  "description": "JSON Resume theme following the lemonlabs.io website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Forsey",
+  "license": "MIT",
+  "dependencies": {
+    "gravatar": "^1.0.6",
+    "lodash": "^2.4.1",
+    "mustache": "^0.8.2",
+    "tarball-extract": "0.0.3",
+    "resume-schema": "0.0.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theon/cv.git"
+  },
+  "keywords": [
+    "json", "jsonresume", "theme"
+  ],
+  "bugs": {
+    "url": "https://github.com/theon/cv/issues"
+  },
+  "homepage": "http://theon.github.io/cv/"
+}
