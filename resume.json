@@ -5,8 +5,10 @@
     "picture": "http://theon.github.io/cv/avatar.jpg",
     "email": "ian@lemonlabs.io",
     "phone": "07825 051 251",
-    "website": "http://theon.github.io/cv",
-    "pdfLink": "http://theon.github.io/cv/ian-forsey-resume.pdf",
+    "phoneInternational": "+447825051251",
+    "website": "https://lemonlabs.io",
+    "websiteLabel": "lemonlabs.io",
+    "pdfLink": "http://lemonlabs.io/ian/cv/ian-forsey-resume.pdf",
     "summary": "My name is Ian and I love Scala! Currently looking for the next Scala contract! <br /><br /> I introduced Scala to Net-A-Porter in 2011 whilst working in the labs team. Over the following five years I drove Net-A-Porter's investment in Scala, providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production across 7+ teams.</p><p>Today, at <a href='https://lemonlabs.io'>lemonlabs.io</a>, I enjoy taking this experience to help other companies with their Scala projects through contracting and training",
     "location": {
       "city": "Fleet",

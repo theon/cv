@@ -17,8 +17,8 @@ if [ ! -d "target/theme-manager" ]; then
 	cd theme-manager
 	npm install
 	mkdir -p themes
-	ln -s $BASE_DIR/lemonlabs-jsonresume-theme themes/lemonlabs-jsonresume-theme
-	cd themes/lemonlabs-jsonresume-theme/1.0.0
+	ln -s $BASE_DIR/jsonresume-theme-lemonlabs themes/jsonresume-theme-lemonlabs
+	cd themes/jsonresume-theme-lemonlabs/1.0.0
 	npm install
 	cd $BASE_DIR
 fi
@@ -34,6 +34,6 @@ sleep 5 # Classic. Fixes everything.
 
 cd $BASE_DIR
 export THEME_SERVER=http://localhost:3000/theme/
-resume export --theme=lemonlabs-jsonresume-theme index.html
+resume export --theme=lemonlabs index.html
 
 kill $THEME_MANAGER_PID

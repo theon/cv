@@ -1,5 +1,5 @@
 {
-  "name": "lemonlabs-jsonresume-theme",
+  "name": "jsonresume-theme-lemonlabs",
   "version": "1.0.0",
   "description": "JSON Resume theme following the lemonlabs.io website",
   "main": "index.js",

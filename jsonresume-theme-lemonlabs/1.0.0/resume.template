@@ -3,9 +3,9 @@
     <head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Ian Forsey</title>
+		<title>{{basics.name}}</title>
 		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="Ian Forsey CV">
+		<meta name="description" content="{{basics.name}} CV">
 		
 		<link rel="canonical" href="https://lemonlabs.io/ian/cv">
 
@@ -384,7 +384,7 @@ footer .footer-below {
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li class="page-scroll">
-						<a href="http:&#x2F;&#x2F;lemonlabs.io&#x2F;ian&#x2F;cv&#x2F;ian-forsey-resume.pdf">
+						<a href="{{basics.pdfLink}}">
 					 		<i class="fa fa-download" aria-hidden="true"></i> PDF
 					 	</a>
 					</li>
@@ -399,26 +399,32 @@ footer .footer-below {
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="intro-text">
-						<h1>Ian Forsey</h1>
-						<h2 class="label">Scala Developer</h2>
+						<h1>{{basics.name}}</h1>
+						<h2 class="label">{{basics.label}}</h2>
 						<div class="row text-center">
                 			<div class="col-lg-4">
+								{{#phoneBool}}
 									<h3>
 										<i class="fa fa-envelope" aria-hidden="true"></i>
-										<a href="tel:+447825051251">07825 051 251</a>
+										<a href="tel:{{basics.phoneInternational}}">{{basics.phone}}</a>
 									</h3>
+								{{/phoneBool}}
 							</div>
 							<div class="col-lg-4">
+								{{#emailBool}}
 									<h3>
 										<i class="fa fa-phone" aria-hidden="true"></i>
-										<a href="mailto:ian@lemonlabs.io">ian@lemonlabs.io</a>
+										<a href="mailto:{{basics.email}}">{{basics.email}}</a>
 									</h3>
+								{{/emailBool}}
 							</div>
 							<div class="col-lg-4">
+								{{#websiteBool}}
 									<h3>
 										<i class="fa fa-globe" aria-hidden="true"></i>
-										<a href="https:&#x2F;&#x2F;lemonlabs.io">lemonlabs.io</a>
+										<a href="{{basics.website}}">{{basics.websiteLabel}}</a>
 									</h3>
+								{{/websiteBool}}
 							</div>
 						</ul>
 					</div>
@@ -437,7 +443,7 @@ footer .footer-below {
             </div>
             <div class="row text-center">
 				<p>
-					My name is Ian and I love Scala! Currently looking for the next Scala contract! <br /><br /> I introduced Scala to Net-A-Porter in 2011 whilst working in the labs team. Over the following five years I drove Net-A-Porter's investment in Scala, providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production across 7+ teams.</p><p>Today, at <a href='https://lemonlabs.io'>lemonlabs.io</a>, I enjoy taking this experience to help other companies with their Scala projects through contracting and training
+					{{{basics.summary}}}
 				</p>
 			</div>
 		</div>
@@ -453,76 +459,21 @@ footer .footer-below {
            	</div>
            	<div class="row">
 			   	<ul>
+				{{#work}}
 					<li class="section-sub section-sub-job">
-						<h3>Director, Lemon Labs</h3>
-						<h4>February 2017 - Present</h4>
-						<p></p>
+						<h3>{{position}}, {{company}}</h3>
+						<h4>{{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}</h4>
+						<p>{{summary}}</p>
+						{{#workHighlights}}
 						<h5>Highlights</h5>
 						<ul>
-							<li>Helping companies with their Scala projects by contracting, running training sessions and proving opensource software</li>
+						{{#highlights}}
+							<li>{{{.}}}</li>
+						{{/highlights}}
 						</ul>
+						{{/workHighlights}}
 					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Associate, Equal Experts</h3>
-						<h4>February 2017 - Present</h4>
-						<p></p>
-					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Senior Scala Contractor, HMRC</h3>
-						<h4>February 2017 - July 2017</h4>
-						<p></p>
-						<h5>Highlights</h5>
-						<ul>
-							<li>Scala Developer in the Government Gateway team</li>
-							<li>Scala, Play, MongoDB, Gatling</li>
-						</ul>
-					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Principal Developer, Net-A-Porter</h3>
-						<h4>November 2014 - January 2017</h4>
-						<p>One of four Principal Developers in a 300 strong IT team. Working in a agile environment, shaping the technical direction of the Product Team by building available, scalable and fault tolerant applications that expose product data to the customer</p>
-						<h5>Highlights</h5>
-						<ul>
-							<li>Scala, Akka, Spray, Gatling</li>
-							<li>AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3</li>
-							<li>Successfully served thousands of req/sec from the Net-A-Porter RESTful product API on sale days</li>
-							<li>Ran internal <a href='https://github.com/NET-A-PORTER/scala-beginner-workshop'>Scala workshops</a> many times over the last two years for a total of 80+ people</li>
-							<li>Last 9 months was on parental leave</li>
-						</ul>
-					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Senior Developer, Net-A-Porter</h3>
-						<h4>December 2013 - November 2014</h4>
-						<p>Member of the Product Team, building the Net-A-Porter product API</p>
-						<h5>Highlights</h5>
-						<ul>
-							<li>Scala, Akka, Spray, Solr</li>
-							<li>Committer to the popular spray/akka-http library, contributing <a href='https://github.com/spray/spray/commit/98365ff0cc3fa7448bd4e0f59d80804c9ed48445'>redirection support</a></li>
-							<li>Active member of the Net-A-Porter <a href='http://techblog.net-a-porter.com/author/i-forsey/'>techblog</a></li>
-						</ul>
-					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Java Developer, Net-A-Porter</h3>
-						<h4>May 2010 - December 2013</h4>
-						<p>Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies</p>
-						<h5>Highlights</h5>
-						<ul>
-							<li>Scala, Akka, Spray, MySql, Lift, Java, Spring</li>
-							<li>Worked on many small projects, including the Net-A-Porter iPad magazine, a GoogleTV shopping app, visual similarity product indexer and new Wish List stack</li>
-							<li>Introduced Scala to the company, which has grown to 15+ production applications, across 7+ teams as of 2015</li>
-							<li>Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack</li>
-						</ul>
-					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Junior Java Developer, Net-A-Porter</h3>
-						<h4>December 2008 - May 2010</h4>
-						<p>Adding features and bug fixing for the Net-A-Porter site. Worked on the release of theOutnet, the sister sites for Net-A-Porter</p>
-					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Junior Java Developer, Avenca</h3>
-						<h4>June 2006 - July 2008</h4>
-						<p>Created applications to analyse data from black box recorders for high speed trains, oil tankers and cruise liners</p>
-					</li>
+				{{/work}}
 				</ul>
 			</div>
 		</div>
@@ -538,26 +489,13 @@ footer .footer-below {
            	</div>
            	<div class="row">
 			   	<ul>
+				{{#volunteer}}
 					<li class="section-sub section-sub-job">
-						<h3>London Scala Users&#39; Group - Speaker</h3>
-						<h4>March 2015</h4>
-						<p>Presented lessons learned whilst building the Net-A-Poter RESTful Product API in Scala and Spray</p>
+						<h3>{{organization}}</h3>
+						<h4>{{startDateMonth}}{{startDateYear}}</h4>
+						<p>{{summary}}</p>
 					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Scala eXchange Conference - Speaker</h3>
-						<h4>December 2013</h4>
-						<p>Presented our use of the Actor Per Request model for the Wish List API at Net-A-Porter</p>
-					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Edit Amplify: Youth Tech - Group Leader</h3>
-						<h4>June 2013</h4>
-						<p>A day of running a workshop for groups of 13-14 year old students, with the aim of getting them excited about working in technology!</p>
-					</li>
-					<li class="section-sub section-sub-job">
-						<h3>Google IO - Demonstrator</h3>
-						<h4>May 2011</h4>
-						<p>Demoed the Net-A-Porter GoogleTV App in a booth decked out to look like a living room</p>
-					</li>
+				{{/volunteer}}
 				</ul>
 			</div>
 		</div>
@@ -573,21 +511,13 @@ footer .footer-below {
            	</div>
            	<div class="row">
 			   	<ul>
+				{{#publications}}
 					<section class="section-sub section-sub-publication">
-						<h3><a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;scala-uri">scala-uri (263 stars, 37 forks)</a></h3>
-						<h4>  </h4>
-						<p>Simple scala library for building and parsing URIs (<a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;scala-uri">link</a>)</p>
+						<h3><a href="{{website}}">{{name}}</a></h3>
+						<h4>{{day}} {{month}} {{year}}</h4>
+						<p>{{summary}} (<a href="{{website}}">link</a>)</p>
 					</section>
-					<section class="section-sub section-sub-publication">
-						<h3><a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;spray-actor-per-request">spray-actor-per-request (131 stars, 33 forks)</a></h3>
-						<h4>  </h4>
-						<p>Example spray application that uses the actor per request model (<a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;spray-actor-per-request">link</a>)</p>
-					</section>
-					<section class="section-sub section-sub-publication">
-						<h3><a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;pre-canned">pre-canned (34 stars, 15 forks)</a></h3>
-						<h4>  </h4>
-						<p>Mocking HTTP services on spray-can for integration testing (<a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;pre-canned">link</a>)</p>
-					</section>
+				{{/publications}}
 				</ul>
 			</div>
 		</div>
@@ -603,26 +533,21 @@ footer .footer-below {
            	</div>
            	<div class="row">
 			   	<ul>
+				{{#education}}
 					<section class="section-sub section-sub-education">
-						<h3>Coursera</h3>
-						<h4>September 2013 - November 2013</h4>
-						<p>Functional Programming Principles in Scala (100%, Distinction)</p>
+						<h3>{{institution}}</h3>
+						<h4>{{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}</h4>
+						<p>{{area}}</p>
+						{{#educationCourses}}
+						<h5>Courses</h5>
+						<ul>
+						{{#courses}}
+							<li>{{.}}</li>
+						{{/courses}}
+						</ul>
+						{{/educationCourses}}
 					</section>
-					<section class="section-sub section-sub-education">
-						<h3>Coursera</h3>
-						<h4>November 2013 - January 2014</h4>
-						<p>Principles of Reactive Programming (100%, Distinction)</p>
-					</section>
-					<section class="section-sub section-sub-education">
-						<h3>Typesafe</h3>
-						<h4>March 2013 - March 2013</h4>
-						<p>Scaling up with Akka and Scala</p>
-					</section>
-					<section class="section-sub section-sub-education">
-						<h3>Solent University</h3>
-						<h4>September 2003 - June 2006</h4>
-						<p>Software Engineering (First Class Honours)</p>
-					</section>
+				{{/education}}
 				</ul>
 			</div>
 		</div>
@@ -638,19 +563,16 @@ footer .footer-below {
            	</div>
            	<div class="row">
 			   	<ul>
+				{{#interests}}
 					<section class="section-sub section-sub-interest">
-						<h3 class="skills">Board Gaming</h3>
+						<h3 class="skills">{{name}}</h3>
 						<ul>
-							<li>Started the weekly gaming group at Net-A-Porter</li>
+						{{#keywords}}
+							<li>{{{.}}}</li>
+						{{/keywords}}
 						</ul>
 					</section>
-					<section class="section-sub section-sub-interest">
-						<h3 class="skills">Internet of Things</h3>
-						<ul>
-							<li><a href='http://theon.github.io/plant-watering-with-arduino.html'>Arduino Chilli Plant Watering System</a></li>
-							<li>Raspberry Pi + ZWave Home Automation</li>
-						</ul>
-					</section>
+				{{/interests}}
 				</ul>
 			</div>
 		</div>
