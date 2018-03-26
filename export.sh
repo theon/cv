@@ -3,6 +3,8 @@
 # Hacky script to generate CV using local theme and theme manager
 # Requires jsonresume-cli to be installed
 
+THEME=jsonresume-theme-lemonlabs
+
 pushd `dirname $0` > /dev/null
 BASE_DIR=`pwd -P`
 popd > /dev/null
@@ -11,20 +13,24 @@ if [ ! -d "target" ]; then
 	mkdir target
 fi
 
-if [ ! -d "target/theme-manager" ]; then
-	cd target
+cd target
+
+if [ ! -d "theme-manager" ]; then
 	git clone git@github.com:jsonresume/theme-manager.git
-	cd theme-manager
-	npm install
-	mkdir -p themes
-	ln -s $BASE_DIR/jsonresume-theme-lemonlabs themes/jsonresume-theme-lemonlabs
-	cd themes/jsonresume-theme-lemonlabs/1.0.0
-	npm install
-	cd $BASE_DIR
 fi
 
+cd theme-manager
+npm install
+mkdir -p themes
 
-cd target/theme-manager
+if [ ! -L "themes/$THEME" ]; then
+	ln -s $BASE_DIR/$THEME themes/$THEME
+fi
+
+cd themes/$THEME/1.0.0
+npm install
+
+cd $BASE_DIR/target/theme-manager
 
 node server.js &
 THEME_MANAGER_PID=$!

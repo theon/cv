@@ -18,12 +18,20 @@
     "profiles": [{
       "network": "Github",
       "username": "theon",
+      "icon": "fa-github-square",
       "url": "https://github.com/theon"
     },
     {
       "network": "Stack Overflow",
+      "icon": "fa-stack-overflow",
       "username": "theon",
-      "url": "http://stackoverflow.com/users/936869/theon"
+      "url": "https://stackoverflow.com/users/936869/theon"
+    },
+    {
+      "network": "LinkedIn",
+      "icon": "fa-linkedin-square",
+      "username": "iforsey",
+      "url": "https://www.linkedin.com/in/iforsey"
     }]
   },
   "work": [{

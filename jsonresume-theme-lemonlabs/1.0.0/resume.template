@@ -9,7 +9,7 @@
 		
 		<link rel="canonical" href="https://lemonlabs.io/ian/cv">
 
-		<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="https://lemonlabs.io/img/favicon.ico" />
 
 		<!-- Custom Fonts -->
 		<link rel="stylesheet" href="https://lemonlabs.io/css/font-awesome/css/font-awesome.min.css">
@@ -37,7 +37,12 @@ body {
 
 @media (min-width: 1200px) {
 	.container {
-		width: 970px;
+		width: 800px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 800px;
 	}
 }
 
@@ -55,7 +60,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #82cb45;
+    color: #7ac33d;
     text-decoration: none;
 }
 
@@ -103,7 +108,7 @@ a.active {
 }
 
 .navbar-default {
-  background-color: #82cb45;
+  background-color: #7ac33d;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -181,7 +186,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #82cb45;
+    background-color: #7ac33d;
     content: url('https://lemonlabs.io/img/lemonlabs_lemon_white.svg');
 }
 
@@ -237,7 +242,7 @@ header .intro-text h1 {
 header .intro-text h2 {
   font-family: 'Patrick Hand', cursive;
   text-transform: none;
-  color: #ccc;
+  color: #aaa;
   font-size: 2em;
   margin: 0px;
   display: block;
@@ -266,7 +271,7 @@ header .intro-text h2 {
 }
 
 header .skills {
-  background-color: #82cb45;
+  background-color: #7ac33d;
   padding: 20px;
   margin-top: 10px;
   font-size: 2.5em;
@@ -277,7 +282,7 @@ header .skills a {
 }
 
 .homepage section {
-    padding: 100px;
+    padding: 75px 25px;
 }
 
 section h2 {
@@ -287,7 +292,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #82cb45;
+    background: #7ac33d;
 }
 
 @media(max-width:767px) {
@@ -366,6 +371,11 @@ footer .footer-below {
     line-height: 28px;
 }
 
+.scroll-top a.btn {
+	padding: 10px;
+	line-height: 24px;
+}
+
 .scroll-top .btn:focus {
     outline: 0;
 }
@@ -373,6 +383,38 @@ footer .footer-below {
 .main-heading {
   padding-top: 120px;
   padding-bottom: 40px;
+}
+
+li.section-sub {
+  font-size: 2em;
+}
+
+li.section-sub li {
+  font-size: 0.5em;
+}
+
+li.section-sub-interest li {
+	font-size: 19px;
+}
+
+@media print {
+	h2.label {
+		border: none;
+	}
+
+	.scroll-top .btn {
+		display: none;
+	}
+
+	hr.star-light {
+		border-color: #000;
+	}
+
+	hr.star-light:after {
+		color: #000;
+		background-color: #fff;
+		content: url(https://lemonlabs.io/img/lemonlabs_lemon.svg);
+	}
 }
 		</style>
 	</head>
@@ -401,6 +443,7 @@ footer .footer-below {
 					<div class="intro-text">
 						<h1>{{basics.name}}</h1>
 						<h2 class="label">{{basics.label}}</h2>
+						
 						<div class="row text-center">
                 			<div class="col-lg-4">
 								{{#phoneBool}}
@@ -426,11 +469,22 @@ footer .footer-below {
 									</h3>
 								{{/websiteBool}}
 							</div>
-						</ul>
+						</div>
+
+						<div class="row text-center">
+							{{#basics.profiles}}
+								<div class="col-lg-4">
+									<h3>
+										<i class="fa {{icon}}" aria-hidden="true"></i>
+										<a href="{{url}}">{{username}}</a>
+									</h3>
+								</div>
+							{{/basics.profiles}}
+						</div>
+
 					</div>
 				</div>
 			</div>
-		</div>
 	</header>
 
     <section class="success" id="about">
@@ -512,11 +566,11 @@ footer .footer-below {
            	<div class="row">
 			   	<ul>
 				{{#publications}}
-					<section class="section-sub section-sub-publication">
+					<li class="section-sub section-sub-publication">
 						<h3><a href="{{website}}">{{name}}</a></h3>
 						<h4>{{day}} {{month}} {{year}}</h4>
 						<p>{{summary}} (<a href="{{website}}">link</a>)</p>
-					</section>
+					</li>
 				{{/publications}}
 				</ul>
 			</div>
@@ -534,7 +588,7 @@ footer .footer-below {
            	<div class="row">
 			   	<ul>
 				{{#education}}
-					<section class="section-sub section-sub-education">
+					<li class="section-sub section-sub-education">
 						<h3>{{institution}}</h3>
 						<h4>{{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}</h4>
 						<p>{{area}}</p>
@@ -546,7 +600,7 @@ footer .footer-below {
 						{{/courses}}
 						</ul>
 						{{/educationCourses}}
-					</section>
+					</li>
 				{{/education}}
 				</ul>
 			</div>
@@ -564,60 +618,22 @@ footer .footer-below {
            	<div class="row">
 			   	<ul>
 				{{#interests}}
-					<section class="section-sub section-sub-interest">
+					<li class="section-sub section-sub-interest">
 						<h3 class="skills">{{name}}</h3>
 						<ul>
 						{{#keywords}}
 							<li>{{{.}}}</li>
 						{{/keywords}}
 						</ul>
-					</section>
+					</li>
 				{{/interests}}
 				</ul>
 			</div>
 		</div>
 	</section>
 
-
-
-    <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Lemon Labs Limited</h3>
-                        <p>Fleet, Hampshire <br></p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            
-                            <li>
-                                <a href="http://github.com/lemonlabsuk" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-		                    
-                            <li>
-                                <a href="https://www.linkedin.com/company/lemon-labs-limited" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-		                    
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Credits</h3>
-                        <p>Modified version of the <a href="https://github.com/jeromelachaud/freelancer-theme/blob/master/LICENCE">Apache 2.0</a> licensed <a href="https://github.com/jeromelachaud/freelancer-theme/">freelancer</a> theme for Jekyll</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Lemon Labs Limited 2018
-                    </div>
-                </div>
-            </div>
         </div>
     </footer>
 
