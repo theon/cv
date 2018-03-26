@@ -60,7 +60,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #7ac33d;
+    color: #74bd30;
     text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ a.active {
 }
 
 .navbar-default {
-  background-color: #7ac33d;
+  background-color: #74bd30;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -186,7 +186,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #7ac33d;
+    background-color: #74bd30;
     content: url('https://lemonlabs.io/img/lemonlabs_lemon_white.svg');
 }
 
@@ -271,7 +271,7 @@ header .intro-text h2 {
 }
 
 header .skills {
-  background-color: #7ac33d;
+  background-color: #74bd30;
   padding: 20px;
   margin-top: 10px;
   font-size: 2.5em;
@@ -292,7 +292,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #7ac33d;
+    background: #74bd30;
 }
 
 @media(max-width:767px) {
@@ -383,6 +383,27 @@ footer .footer-below {
 .main-heading {
   padding-top: 120px;
   padding-bottom: 40px;
+}
+
+li.section-sub {
+	color: #7ac33d;
+}
+.success li.section-sub {
+	color: #fff;
+}
+
+li.section-sub h3 {
+	color: #7ac33d;
+}
+.success li.section-sub h3 {
+	color: #fff;
+}
+
+li.section-sub > * {
+	color: #373f31;
+}
+.success li.section-sub * {
+	color: #fff;
 }
 
 li.section-sub {
@@ -569,7 +590,7 @@ li.section-sub-interest li {
 					<li class="section-sub section-sub-publication">
 						<h3><a href="{{website}}">{{name}}</a></h3>
 						<h4>{{day}} {{month}} {{year}}</h4>
-						<p>{{summary}} (<a href="{{website}}">link</a>)</p>
+						<p>{{{summary}}} (<a href="{{website}}">link</a>)</p>
 					</li>
 				{{/publications}}
 				</ul>

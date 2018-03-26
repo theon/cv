@@ -9,7 +9,7 @@
     "website": "https://lemonlabs.io",
     "websiteLabel": "lemonlabs.io",
     "pdfLink": "http://lemonlabs.io/ian/cv/ian-forsey-resume.pdf",
-    "summary": "My name is Ian and I love Scala! Currently looking for the next Scala contract! <br /><br /> I introduced Scala to Net-A-Porter in 2011 whilst working in the labs team. Over the following five years I drove Net-A-Porter's investment in Scala, providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production across 7+ teams.</p><p>Today, at <a href='https://lemonlabs.io'>lemonlabs.io</a>, I enjoy taking this experience to help other companies with their Scala projects through contracting and training",
+    "summary": "Hi, I'm Ian and I love Scala! I will be looking for the next Scala contract in September 2018. <br /><br /> I introduced Scala to Net-A-Porter in 2011 whilst working in the labs team. Over the following five years I drove Net-A-Porter's investment in Scala, providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production across 7+ teams.</p><p>Today, at <a href='https://lemonlabs.io'>lemonlabs.io</a>, I enjoy taking this experience to help other companies with their Scala projects through contracting and training",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -39,27 +39,33 @@
     "position": "Director",
     "website": "https://lemonlabs.io",
     "startDate": "2017-02-03",
-    "summary": "",
+    "summary": "Helping companies with their Scala and Java projects by contracting, running training sessions and proving opensource software",
     "highlights": [
-      "Helping companies with their Scala projects by contracting, running training sessions and proving opensource software"
     ]
   },{
-    "company": "Equal Experts",
-    "position": "Associate",
-    "website": "https://www.equalexperts.com/",
-    "startDate": "2017-02-20",
-    "summary": "",
-    "highlights": []
+    "company": "Barclaycard",
+    "position": "Senior Java Developer",
+    "website": "https://www.barclaycard.co.uk",
+    "startDate": "2017-10-20",
+    "endDate": "2018-05-31",
+    "summary": "Senior Java Developer building new features for Barclaycard Payment Solutions",
+    "highlights": [
+      "Integrated Vocalink's Pay By Bank App into Barclaycard's ecommerce payment solution",
+      "Built support for Oracle Simphony point-of-sale into Barclaycard's in-store card payment offering",
+      "Java, Oracle 11g, Git"
+    ]
   },{
     "company": "HMRC",
-    "position": "Senior Scala Contractor",
+    "position": "Senior Scala Developer",
     "website": "http://hmrc.gov.uk",
     "startDate": "2017-02-20",
     "endDate": "2017-07-12",
-    "summary": "",
+    "summary": "Senior Scala Developer in the Government Gateway team, supporting the sign-in pages",
     "highlights": [
-      "Scala Developer in the Government Gateway team",
-      "Scala, Play, MongoDB, Gatling"
+      "Added new user flows for Multi-Factor-Authentication",
+      "Migrated Agent registration to HMRC's current platform",
+      "Upgraded from Play 2.3 to 2.5 across ~10 microservices",
+      "Scala, Play, MongoDB, Gatling, Git"
     ]
   },{
     "company": "Net-A-Porter",
@@ -69,11 +75,10 @@
     "endDate": "2017-01-27",
     "summary": "One of four Principal Developers in a 300 strong IT team. Working in a agile environment, shaping the technical direction of the Product Team by building available, scalable and fault tolerant applications that expose product data to the customer",
     "highlights": [
-      "Scala, Akka, Spray, Gatling",
+      "Scala, Akka, Spray, Gatling, Git",
       "AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3",
       "Successfully served thousands of req/sec from the Net-A-Porter RESTful product API on sale days",
-      "Ran internal <a href='https://github.com/NET-A-PORTER/scala-beginner-workshop'>Scala workshops</a> many times over the last two years for a total of 80+ people",
-      "Last 9 months was on parental leave"
+      "Ran internal <a href='https://github.com/NET-A-PORTER/scala-beginner-workshop'>Scala workshops</a> many times over the last two years for a total of 80+ people"
     ]
   },{
     "company": "Net-A-Porter",
@@ -96,9 +101,9 @@
     "summary": "Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies",
     "highlights": [
       "Scala, Akka, Spray, MySql, Lift, Java, Spring",
-      "Worked on many small projects, including the Net-A-Porter iPad magazine, a GoogleTV shopping app, visual similarity product indexer and new Wish List stack",
-      "Introduced Scala to the company, which has grown to 15+ production applications, across 7+ teams as of 2015",
-      "Drove the first project at Net-A-Porter to extract website functionality from a monolithic webapp into it's own end-to-end stack"
+      "Project work including an iPad magazine, a GoogleTV shopping app, visual similarity product indexer and new Wish List stack",
+      "Introduced Scala to the company",
+      "Instigated the company move to a microservice architecture"
     ]
   },{
     "company": "Net-A-Porter",
@@ -106,14 +111,14 @@
     "website": "http://www.net-a-porter.com",
     "startDate": "2008-12-01",
     "endDate": "2010-05-01",
-    "summary": "Adding features and bug fixing for the Net-A-Porter site. Worked on the release of theOutnet, the sister sites for Net-A-Porter"
+    "summary": "Worked on the release of theOutnet.com"
   },{
     "company": "Avenca",
     "position": "Junior Java Developer",
     "website": "http://www.avenca.co.uk",
     "startDate": "2006-06-01",
     "endDate": "2008-07-01",
-    "summary": "Created applications to analyse data from black box recorders for high speed trains, oil tankers and cruise liners"
+    "summary": "Software analysis of black box recorder data for trains and ships"
   }],
   "education": [{
     "institution": "Coursera",
@@ -144,17 +149,17 @@
     "courses": []
   }],
   "publications": [{
-    "name": "scala-uri (263 stars, 37 forks)",
-    "website": "https://github.com/NET-A-PORTER/scala-uri",
-    "summary": "Simple scala library for building and parsing URIs"
+    "name": "scala-uri (59 stars, 7 forks)",
+    "website": "https://github.com/lemonlabsuk/scala-uri",
+    "summary": "scala-uri is is a small Scala library that helps you work with URIs. It's used by over <a href='https://github.com/search?utf8=%E2%9C%93&amp;q=scala-uri+extension%3Asbt&amp;type=Code&amp;ref=advsearch&amp;l=&amp;l='>250 open source projects</a> on github. Check out the <a href='https://lemonlabs.io/opensource/'>lemonlabs website</a> to see which companies are using scala-uri, such as theguardian.com on their homepage!"
   },
   {
-    "name": "spray-actor-per-request (131 stars, 33 forks)",
+    "name": "spray-actor-per-request (137 stars, 30 forks)",
     "website": "https://github.com/NET-A-PORTER/spray-actor-per-request",
     "summary": "Example spray application that uses the actor per request model"
   },
   {
-    "name": "pre-canned (34 stars, 15 forks)",
+    "name": "pre-canned (35 stars, 16 forks)",
     "website": "https://github.com/NET-A-PORTER/pre-canned",
     "summary": "Mocking HTTP services on spray-can for integration testing"
   }],
@@ -188,13 +193,13 @@
   "interests": [{
     "name": "Board Gaming",
     "keywords": [
-      "Started the weekly gaming group at Net-A-Porter"
+      "Established gaming groups at Barclaycard, HMRC and Net-A-Porter"
     ]
   },{
     "name": "Internet of Things",
     "keywords": [
       "<a href='http://theon.github.io/plant-watering-with-arduino.html'>Arduino Chilli Plant Watering System</a>",
-      "Raspberry Pi + ZWave Home Automation"
+      "Home Automation with Samsung SmartThings, ZWave, Raspberry Pi"
     ]
   }],
   "references": []
