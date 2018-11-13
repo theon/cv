@@ -35,6 +35,16 @@
     }]
   },
   "work": [{
+    "company": "Barclaycard",
+    "position": "Senior Java Developer",
+    "website": "https://www.barclaycard.co.uk",
+    "startDate": "2018-10-29",
+    "summary": "Senior Java Developer building new features for Barclaycard Payment Solutions",
+    "highlights": [
+      "Implementing new features for Barclaycard's Smartpay payment gateway",
+      "Java, Oracle 11g, Git"
+    ]
+  },{
     "company": "Lemon Labs",
     "position": "Director",
     "website": "https://lemonlabs.io",
@@ -50,8 +60,8 @@
     "endDate": "2018-05-31",
     "summary": "Senior Java Developer building new features for Barclaycard Payment Solutions",
     "highlights": [
-      "Integrated Vocalink's Pay By Bank App into Barclaycard's ecommerce payment solution",
-      "Built support for Oracle Simphony point-of-sale into Barclaycard's in-store card payment offering",
+      "Integrated Vocalink's Pay By Bank App into Barclaycard's ecommerce Smartpay payment gateway",
+      "Built support for Oracle Simphony point-of-sale into Barclaycard's in-store Smartpay payment gateway",
       "Java, Oracle 11g, Git"
     ]
   },{
