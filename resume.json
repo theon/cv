@@ -159,17 +159,17 @@
     "courses": []
   }],
   "publications": [{
-    "name": "scala-uri (59 stars, 7 forks)",
+    "name": "scala-uri (104 stars, 13 forks)",
     "website": "https://github.com/lemonlabsuk/scala-uri",
-    "summary": "scala-uri is is a small Scala library that helps you work with URIs. It's used by over <a href='https://github.com/search?utf8=%E2%9C%93&amp;q=scala-uri+extension%3Asbt&amp;type=Code&amp;ref=advsearch&amp;l=&amp;l='>250 open source projects</a> on github. Check out the <a href='https://lemonlabs.io/opensource/'>lemonlabs website</a> to see which companies are using scala-uri, such as theguardian.com on their homepage!"
+    "summary": "scala-uri is is a small Scala library that helps you work with URIs. It's used by over <a href='https://github.com/search?utf8=%E2%9C%93&amp;q=scala-uri+extension%3Asbt&amp;type=Code&amp;ref=advsearch&amp;l=&amp;l='>350 open source projects</a> on github. Check out the <a href='https://lemonlabs.io/opensource/'>lemonlabs website</a> to see which companies are using scala-uri, such as theguardian.com on their homepage!"
   },
   {
-    "name": "spray-actor-per-request (137 stars, 30 forks)",
+    "name": "spray-actor-per-request (136 stars, 30 forks)",
     "website": "https://github.com/NET-A-PORTER/spray-actor-per-request",
     "summary": "Example spray application that uses the actor per request model"
   },
   {
-    "name": "pre-canned (35 stars, 16 forks)",
+    "name": "pre-canned (33 stars, 17 forks)",
     "website": "https://github.com/NET-A-PORTER/pre-canned",
     "summary": "Mocking HTTP services on spray-can for integration testing"
   }],
