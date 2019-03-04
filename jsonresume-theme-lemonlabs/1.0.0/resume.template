@@ -618,7 +618,12 @@ li.section-sub-interest li {
 					<li class="section-sub section-sub-education">
 						<h3>{{institution}}</h3>
 						<h4>{{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}</h4>
-						<p>{{area}}</p>
+						<p>
+							{{area}}
+							{{#certificate}}
+								<a style="margin-left:10px; font-size:15px; border-bottom: 1px dotted #fff;" href="{{{.}}}">View Certificate</a>
+							{{/certificate}}
+						</p>
 						{{#educationCourses}}
 						<h5>Courses</h5>
 						<ul>

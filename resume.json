@@ -131,6 +131,13 @@
     "summary": "Software analysis of black box recorder data for trains and ships"
   }],
   "education": [{
+    "institution": "edX",
+    "area": "Programming Reactive Systems (100%)",
+    "startDate": "2019-02-01",
+    "endDate": "2019-03-01",
+    "certificate": "https://courses.edx.org/certificates/3ff2ca460a844de1899f9051bd0f70c2",
+    "courses": []
+  },{
     "institution": "Coursera",
     "area": "Functional Programming Principles in Scala (100%, Distinction)",
     "startDate": "2013-09-01",
