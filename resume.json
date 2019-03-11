@@ -42,14 +42,14 @@
     "summary": "Senior Java Developer building new features for Barclaycard Payment Solutions",
     "highlights": [
       "Implementing new features for Barclaycard's Smartpay payment gateway",
-      "Java, Oracle 11g, Git"
+      "Java, Oracle 12c, Git"
     ]
   },{
     "company": "Lemon Labs",
     "position": "Director",
     "website": "https://lemonlabs.io",
     "startDate": "2017-02-03",
-    "summary": "Helping companies with their Scala and Java projects by contracting, running training sessions and proving opensource software",
+    "summary": "Helping companies with their Scala and Java projects by contracting and proving opensource software",
     "highlights": [
     ]
   },{
@@ -138,27 +138,31 @@
     "certificate": "https://courses.edx.org/certificates/3ff2ca460a844de1899f9051bd0f70c2",
     "courses": []
   },{
-    "institution": "Coursera",
-    "area": "Functional Programming Principles in Scala (100%, Distinction)",
-    "startDate": "2013-09-01",
-    "endDate": "2013-11-01",
+    "institution": "Scaled Agile",
+    "area": "Certified SAFe 4 Practitioner (84%)",
+    "startDate": "2019-02-01",
+    "endDate": "2019-03-01",
+    "certificate": "https://www.youracclaim.com/badges/d1fb87f9-40a6-4b84-9474-c0c72158a69c/public_url",
     "courses": []
-  },
-  {
+  },{
     "institution": "Coursera",
     "area": "Principles of Reactive Programming (100%, Distinction)",
     "startDate": "2013-11-01",
     "endDate": "2014-01-01",
     "courses": []
-  },
-  {
+  },{
+    "institution": "Coursera",
+    "area": "Functional Programming Principles in Scala (100%, Distinction)",
+    "startDate": "2013-09-01",
+    "endDate": "2013-11-01",
+    "courses": []
+  },{
     "institution": "Typesafe",
     "area": "Scaling up with Akka and Scala",
     "startDate": "2013-03-01",
     "endDate": "2013-03-01",
     "courses": []
-  },
-  {
+  },{
     "institution": "Solent University",
     "area": "Software Engineering (First Class Honours)",
     "startDate": "2003-09-01",

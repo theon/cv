@@ -440,6 +440,16 @@ li.section-sub-interest li {
 	a[href]:after {
 		content: none !important;
 	}
+
+	.homepage section {
+		page-break-after: always;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+
+	footer {
+		display: none;
+	}
 }
 		</style>
 	</head>
