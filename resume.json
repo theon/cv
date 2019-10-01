@@ -9,7 +9,7 @@
     "website": "https://lemonlabs.io",
     "websiteLabel": "lemonlabs.io",
     "pdfLink": "https://theon.github.io/cv/ian-forsey-resume.pdf",
-    "summary": "Hi, I'm Ian and I love Scala! I will be looking for the next Scala contract in September 2018. <br /><br /> I introduced Scala to Net-A-Porter in 2011 whilst working in the labs team. Over the following five years I drove Net-A-Porter's investment in Scala, providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production across 7+ teams.</p><p>Today, at <a href='https://lemonlabs.io'>lemonlabs.io</a>, I enjoy taking this experience to help other companies with their Scala projects through contracting and training",
+    "summary": "Hi, I'm Ian and I love Scala and Java!<br /><br /> I introduced Scala to Net-A-Porter in 2011 whilst working in the labs team. Over the following five years I drove Net-A-Porter's investment in Scala, providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production across 7+ teams.</p><p>Today, at <a href='https://lemonlabs.io'>lemonlabs.io</a>, I enjoy taking this experience to help other companies with their Scala projects through contracting and training",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -39,6 +39,7 @@
     "position": "Senior Java Developer",
     "website": "https://www.barclaycard.co.uk",
     "startDate": "2018-10-29",
+    "endDate": "2019-04-26",
     "summary": "Senior Java Developer building new features for Barclaycard Payment Solutions",
     "highlights": [
       "Implementing new features for Barclaycard's Smartpay payment gateway",
