@@ -441,6 +441,14 @@ li.section-sub-interest li {
 		content: none !important;
 	}
 
+	section a, .success a {
+		border-bottom: 2px dashed #000;
+	}
+
+	section h3 a {
+		border-bottom: none;
+	}
+
 	.homepage section {
 		page-break-after: always;
 		padding-bottom: 0px;
