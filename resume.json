@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Ian Forsey",
-    "label": "Java/Scala Developer",
+    "label": "Java Developer",
     "picture": "http://theon.github.io/cv/avatar.jpg",
     "email": "ian@lemonlabs.io",
     "phone": "07825 051 251",
@@ -9,7 +9,7 @@
     "website": "https://lemonlabs.io",
     "websiteLabel": "lemonlabs.io",
     "pdfLink": "https://theon.github.io/cv/ian-forsey-resume.pdf",
-    "summary": "Hi, I'm Ian and I love software development!<br /><br />I've recently enjoyed working with Java in the fintech industry at Barclaycard, whilst <a href=\"https://lemonlabs.io/opensource/\">maintaining an opensource project</a> in my spare time. Prior to that I introduced Scala to Net-A-Porter in 2011 and drove the company's investment in Scala over the following five years by providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production",
+    "summary": "Hi, I'm Ian and I love Java! I am currently looking for a Java role in the area surrounding Fleet, Hampshire<br /><br />I've recently enjoyed working in the fintech industry at Barclaycard working on their Smartpay Payment Gateway, whilst <a href=\"https://lemonlabs.io/opensource/\">maintaining opensource projects</a> in my spare time. Prior to that I was a Principal Developer at Net-A-Porter. Durning my eight years there, I built the company's first microservice which triggered a company wide migration to a microservices architecture. At Net-A-Porter I was also heavily involved in the <a href='http://theon.github.io/cv#opensource'>opensourcing</a> of software, was a <a href='http://theon.github.io/cv#events'>speaker</a> at several programming events, and ran programming workshops for near 100 employees",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -42,8 +42,9 @@
     "endDate": "2019-04-26",
     "summary": "Senior Java Developer building new features for Barclaycard Payment Solutions",
     "highlights": [
-      "Implementing new features for Barclaycard's Smartpay payment gateway",
-      "Java, Oracle 12c, Git",
+      "Implementing 3D Secure 2.0 support for Barclaycard's Smartpay payment gateway",
+      "JBoss 5 to JBoss 6 migration",
+      "Java, Git, Jenkins Pipelines, Spring Boot, Hibernate, Oracle 12c",
       "Became a certfied SAFe practioner"
     ]
   },{
@@ -65,16 +66,16 @@
     "highlights": [
       "Integrated Vocalink's Pay By Bank App into Barclaycard's ecommerce Smartpay payment gateway",
       "Built support for Oracle Simphony point-of-sale into Barclaycard's in-store Smartpay payment gateway",
-      "Java, Oracle 11g, Git",
+      "Java, Git, Jenkins, Spring, Hibernate, Oracle 11g",
       "Provided a beginners Git workshop to aid in a SVN to Git migrarion"
     ]
   },{
     "company": "HMRC",
-    "position": "Senior Scala Developer",
+    "position": "Senior Developer",
     "website": "http://hmrc.gov.uk",
     "startDate": "2017-02-20",
     "endDate": "2017-07-12",
-    "summary": "Senior Scala Developer in the Government Gateway team, supporting the sign-in pages",
+    "summary": "Senior Developer in the Government Gateway team, supporting the sign-in pages",
     "highlights": [
       "Added new user flows for Multi-Factor-Authentication",
       "Migrated Agent registration to HMRC's current platform",
@@ -89,10 +90,10 @@
     "endDate": "2017-01-27",
     "summary": "One of four Principal Developers in a 300 strong IT team. Working in a agile environment, shaping the technical direction of the Product Team by building available, scalable and fault tolerant applications that expose product data to the customer",
     "highlights": [
-      "Scala, Akka, Spray, Gatling, Git",
+      "Scala, Java, Akka, Spray, Gatling, Git",
       "AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3",
       "Successfully served thousands of req/sec from the Net-A-Porter RESTful product API on sale days",
-      "Ran internal <a href='https://github.com/NET-A-PORTER/scala-beginner-workshop'>Scala workshops</a> many times over the last two years for a total of 80+ people"
+      "Ran internal <a href='https://github.com/NET-A-PORTER/scala-beginner-workshop'>Scala workshops</a> many times over the last two years for around 100 people"
     ]
   },{
     "company": "Net-A-Porter",
@@ -114,10 +115,10 @@
     "endDate": "2013-12-01",
     "summary": "Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies",
     "highlights": [
-      "Scala, Akka, Spray, MySql, Lift, Java, Spring",
+      "Java, Spring, MySQL, Scala, Akka, Spray, Lift",
       "Project work including an iPad magazine, a GoogleTV shopping app, visual similarity product indexer and new Wish List stack",
       "Introduced Scala to the company",
-      "Instigated the company move to a microservice architecture"
+      "Build the company's first microservice that instigated a company move to a microservice architecture"
     ]
   },{
     "company": "Net-A-Porter",
