@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Ian Forsey</title>
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Ian Forsey CV">
+		
+		<link rel="canonical" href="https://theon.github.io/cv/">
+
+		<link rel="shortcut icon" type="image/x-icon" href="https://lemonlabs.io/img/favicon.ico" />
+
+		<!-- Custom Fonts -->
+		<link rel="stylesheet" href="https://lemonlabs.io/css/font-awesome/css/font-awesome.min.css">
+		<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+		<link href="//fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet" type="text/css" />
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<script src="https://lemonlabs.io/js/jquery-1.11.0.js"></script>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<style type="text/css">
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', cursive;
+    color: #373f31;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 800px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 800px;
+	}
+}
+
+p {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #74bd30;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+  text-decoration: none;
+  border-bottom: 2px dashed #373f31;
+}
+
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+}
+
+.navbar-right {
+    float: right !important;
+}
+
+.navbar-fixed-top {
+	padding: 5px 0;
+	-webkit-transition: padding .3s;
+	-moz-transition: padding .3s;
+	transition: padding .3s;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 0.75em;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav {
+	float: left;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.navbar-default {
+  background-color: #74bd30;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a.active {
+  color: #373f31;
+  outline: 0;
+  border-bottom: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  background-color: #373f31;
+}
+
+a.navbar-brand:hover {
+  border-bottom: 0;
+}
+
+.success a {
+  color: #fff;
+  border-bottom: 2px dashed #fff;
+}
+
+.success a:hover,
+.success a:focus,
+.success a:active,
+.success a.active {
+    color: #fff;
+    border-bottom: 2px dashed #373f31;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', cursive;
+    font-weight: 700;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 50px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+	overflow: visible;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #74bd30;
+    content: url('https://lemonlabs.io/img/lemonlabs_lemon_white.svg');
+}
+
+hr.star-primary {
+    border-color: #000;
+}
+
+hr.star-primary:after {
+    color: #000;
+    background-color: #fff;
+    content: url('https://lemonlabs.io/img/lemonlabs_lemon.svg');
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background: #fff;
+    font-family: 'Patrick Hand', cursive;
+}
+
+header .container {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: relative;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header .intro-text .logo {
+  width: 300px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text h1 {
+	margin-bottom: 0;
+}
+
+header .intro-text h2 {
+  font-family: 'Patrick Hand', cursive;
+  text-transform: none;
+  color: #aaa;
+  font-size: 2em;
+  margin: 0px;
+  display: block;
+}
+
+.intro-text a {
+  color: #373f31;
+}
+
+.intro-text h3 {
+	text-transform: lowercase;
+	font-size: 1.4em;
+}
+
+.intro-text h3 i {
+	margin-right: 3px;
+	font-size: 0.9em;
+    vertical-align: middle;
+}
+
+.intro-text a:hover,
+.intro-text a:focus,
+.intro-text a:active,
+.intro-text a.active {
+  color: #373f31;
+}
+
+header .skills {
+  background-color: #74bd30;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 2.5em;
+  color: #fff;
+}
+header .skills a {
+  color: #fff;
+}
+
+.homepage section {
+    padding: 75px 25px;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+section.success {
+    color: #fff;
+    background: #74bd30;
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+}
+
+.success .btn-outline,
+footer .btn-outline {
+  color: #fff;
+  border: solid 2px #fff;
+}
+
+.btn-success {
+    background-color: #373f31;
+    border-color: #373f31;
+}
+
+footer {
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #373f31;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    color: #373f31;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top a.btn {
+	padding: 10px;
+	line-height: 24px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
+
+.main-heading {
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+li.section-sub {
+	color: #7ac33d;
+}
+.success li.section-sub {
+	color: #fff;
+}
+
+li.section-sub h3 {
+	color: #7ac33d;
+}
+.success li.section-sub h3 {
+	color: #fff;
+}
+
+li.section-sub > * {
+	color: #373f31;
+}
+.success li.section-sub * {
+	color: #fff;
+}
+
+li.section-sub {
+  font-size: 2em;
+}
+
+li.section-sub li {
+  font-size: 0.5em;
+}
+
+li.section-sub-interest li {
+	font-size: 19px;
+}
+
+@media print {
+	h2.label {
+		border: none;
+	}
+
+	.scroll-top .btn {
+		display: none;
+	}
+
+	hr.star-light {
+		border-color: #000;
+	}
+
+	hr.star-light:after {
+		color: #000;
+		background-color: #fff;
+		content: url(https://lemonlabs.io/img/lemonlabs_lemon.svg);
+	}
+
+	a[href]:after {
+		content: none !important;
+	}
+
+	section a, .success a {
+		border-bottom: 2px dashed #000;
+	}
+
+	section h3 a {
+		border-bottom: none;
+	}
+
+	.homepage section {
+		page-break-after: always;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+
+	footer {
+		display: none;
+	}
+}
+		</style>
+	</head>
+    <body id="page-top" class="homepage">
+       
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="page-scroll">
+						<a href="https:&#x2F;&#x2F;theon.github.io&#x2F;cv&#x2F;ian-forsey-resume.pdf">
+					 		<i class="fa fa-download" aria-hidden="true"></i> PDF
+					 	</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="intro-text">
+						<h1>Ian Forsey</h1>
+						<h2 class="label">Java Developer</h2>
+						
+						<div class="row text-center">
+                			<div class="col-lg-4">
+									<h3>
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+										<a href="tel:+447825051251">07825 051 251</a>
+									</h3>
+							</div>
+							<div class="col-lg-4">
+									<h3>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<a href="mailto:ian@lemonlabs.io">ian@lemonlabs.io</a>
+									</h3>
+							</div>
+							<div class="col-lg-4">
+									<h3>
+										<i class="fa fa-globe" aria-hidden="true"></i>
+										<a href="https:&#x2F;&#x2F;lemonlabs.io">lemonlabs.io</a>
+									</h3>
+							</div>
+						</div>
+
+						<div class="row text-center">
+								<div class="col-lg-4">
+									<h3>
+										<i class="fa fa-github-square" aria-hidden="true"></i>
+										<a href="https:&#x2F;&#x2F;github.com&#x2F;theon">theon</a>
+									</h3>
+								</div>
+								<div class="col-lg-4">
+									<h3>
+										<i class="fa fa-stack-overflow" aria-hidden="true"></i>
+										<a href="https:&#x2F;&#x2F;stackoverflow.com&#x2F;users&#x2F;936869&#x2F;theon">theon</a>
+									</h3>
+								</div>
+								<div class="col-lg-4">
+									<h3>
+										<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+										<a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;iforsey">iforsey</a>
+									</h3>
+								</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+	</header>
+
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row text-center">
+				<p>
+					Hi, I'm Ian and I love Java! I am currently looking for a Java role in the area surrounding Fleet, Hampshire<br /><br />I've recently enjoyed working in the fintech industry at Barclaycard working on their Smartpay Payment Gateway, whilst <a href="https://lemonlabs.io/opensource/">maintaining opensource projects</a> in my spare time. Prior to that I was a Principal Developer at Net-A-Porter. Durning my eight years there, I built the company's first microservice which triggered a company wide migration to a microservices architecture. At Net-A-Porter I was also heavily involved in the <a href='http://theon.github.io/cv#opensource'>opensourcing</a> of software, was a <a href='http://theon.github.io/cv#events'>speaker</a> at several programming events, and ran programming workshops for near 100 employees
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="work">
+       	<div class="container">
+           	<div class="row">
+               	<div class="col-lg-12 text-center">
+                   	<h2>Work</h2>
+                   	<hr class="star-primary">
+               	</div>
+           	</div>
+           	<div class="row">
+			   	<ul>
+					<li class="section-sub section-sub-job">
+						<h3>Senior Java Developer, Barclaycard</h3>
+						<h4>October 2018 - April 2019</h4>
+						<p>Senior Java Developer building new features for Barclaycard Payment Solutions</p>
+						<h5>Highlights</h5>
+						<ul>
+							<li>Implementing 3D Secure 2.0 support for Barclaycard's Smartpay payment gateway</li>
+							<li>JBoss 5 to JBoss 6 migration</li>
+							<li>Java, Git, Jenkins Pipelines, Spring Boot, Hibernate, Oracle 12c</li>
+							<li>Became a certfied SAFe practioner</li>
+						</ul>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Director, Lemon Labs</h3>
+						<h4>February 2017 - Present</h4>
+						<p>Helping companies with their Scala and Java projects</p>
+						<h5>Highlights</h5>
+						<ul>
+							<li>Contracting and building <a href="https://lemonlabs.io/opensource/">opensource software</a></li>
+						</ul>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Senior Java Developer, Barclaycard</h3>
+						<h4>October 2017 - May 2018</h4>
+						<p>Senior Java Developer building new features for Barclaycard Payment Solutions</p>
+						<h5>Highlights</h5>
+						<ul>
+							<li>Integrated Vocalink's Pay By Bank App into Barclaycard's ecommerce Smartpay payment gateway</li>
+							<li>Built support for Oracle Simphony point-of-sale into Barclaycard's in-store Smartpay payment gateway</li>
+							<li>Java, Git, Jenkins, Spring, Hibernate, Oracle 11g</li>
+							<li>Provided a beginners Git workshop to aid in a SVN to Git migrarion</li>
+						</ul>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Senior Developer, HMRC</h3>
+						<h4>February 2017 - July 2017</h4>
+						<p>Senior Developer in the Government Gateway team, supporting the sign-in pages</p>
+						<h5>Highlights</h5>
+						<ul>
+							<li>Added new user flows for Multi-Factor-Authentication</li>
+							<li>Migrated Agent registration to HMRC's current platform</li>
+							<li>Upgraded from Play 2.3 to 2.5 across ~10 microservices</li>
+							<li>Scala, Play, MongoDB, Gatling, Git</li>
+						</ul>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Principal Developer, Net-A-Porter</h3>
+						<h4>November 2014 - January 2017</h4>
+						<p>One of four Principal Developers in a 300 strong IT team. Working in a agile environment, shaping the technical direction of the Product Team by building available, scalable and fault tolerant applications that expose product data to the customer</p>
+						<h5>Highlights</h5>
+						<ul>
+							<li>Java, Scala, Akka, Spray, Solr, Gatling, Git</li>
+							<li>AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3</li>
+							<li>Successfully served thousands of req/sec from the Net-A-Porter RESTful product API on sale days</li>
+							<li>Ran internal <a href='https://github.com/NET-A-PORTER/scala-beginner-workshop'>Scala workshops</a> many times over the last two years for around 100 people</li>
+						</ul>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Senior Developer, Net-A-Porter</h3>
+						<h4>December 2013 - November 2014</h4>
+						<p>Member of the Product Team, building the Net-A-Porter product API</p>
+						<h5>Highlights</h5>
+						<ul>
+							<li>Java, Scala, Akka, Spray, Solr, Gatling, Git</li>
+							<li>Committer to the popular spray/akka-http library, contributing <a href='https://github.com/spray/spray/commit/98365ff0cc3fa7448bd4e0f59d80804c9ed48445'>redirection support</a></li>
+							<li>Active member of the Net-A-Porter <a href='http://techblog.net-a-porter.com/author/i-forsey/'>techblog</a></li>
+						</ul>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Java Developer, Net-A-Porter</h3>
+						<h4>May 2010 - December 2013</h4>
+						<p>Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies</p>
+						<h5>Highlights</h5>
+						<ul>
+							<li>Java, Spring, MySQL, Scala, Akka, Spray, Lift</li>
+							<li>Project work including an iPad magazine, a GoogleTV shopping app, visual similarity product indexer and new Wish List stack</li>
+							<li>Introduced Scala to the company</li>
+							<li>Build the company's first microservice that instigated a company move to a microservice architecture</li>
+						</ul>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Junior Java Developer, Net-A-Porter</h3>
+						<h4>December 2008 - May 2010</h4>
+						<p>Worked on the release of theOutnet.com</p>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Junior Java Developer, Avenca</h3>
+						<h4>June 2006 - July 2008</h4>
+						<p>Software analysis of black box recorder data for trains and ships</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="success" id="volunteer">
+		<a name="events" />
+       	<div class="container">
+           	<div class="row">
+               	<div class="col-lg-12 text-center">
+                   	<h2>Events</h2>
+                   	<hr class="star-light">
+               	</div>
+           	</div>
+           	<div class="row">
+			   	<ul>
+					<li class="section-sub section-sub-job">
+						<h3>London Scala Users&#39; Group - Speaker</h3>
+						<h4>March 2015</h4>
+						<p>Presented lessons learned whilst building the Net-A-Poter RESTful Product API in Scala and Spray</p>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Scala eXchange Conference - Speaker</h3>
+						<h4>December 2013</h4>
+						<p>Presented our use of the Actor Per Request model for the Wish List API at Net-A-Porter</p>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Edit Amplify: Youth Tech - Group Leader</h3>
+						<h4>June 2013</h4>
+						<p>A day of running a workshop for groups of 13-14 year old students, with the aim of getting them excited about working in technology!</p>
+					</li>
+					<li class="section-sub section-sub-job">
+						<h3>Google IO - Demonstrator</h3>
+						<h4>May 2011</h4>
+						<p>Demoed the Net-A-Porter GoogleTV App in a booth decked out to look like a living room</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="publications">
+		<a name="opensource" />
+       	<div class="container">
+           	<div class="row">
+               	<div class="col-lg-12 text-center">
+                   	<h2>Open Source</h2>
+                   	<hr class="star-primary">
+               	</div>
+           	</div>
+           	<div class="row">
+			   	<ul>
+					<li class="section-sub section-sub-publication">
+						<h3><a href="https:&#x2F;&#x2F;github.com&#x2F;lemonlabsuk&#x2F;scala-uri">scala-uri (144 stars, 21 forks)</a></h3>
+						<h4>  </h4>
+						<p>scala-uri is is a small Scala library that helps you work with URIs. It's used by almost <a href='https://github.com/search?utf8=%E2%9C%93&amp;q=scala-uri+extension%3Asbt&amp;type=Code&amp;ref=advsearch&amp;l=&amp;l='>400 open source projects</a> on github. Check out the <a href='https://lemonlabs.io/opensource/'>lemonlabs website</a> to see which companies are using scala-uri, such as theguardian.com on their homepage! (<a href="https:&#x2F;&#x2F;github.com&#x2F;lemonlabsuk&#x2F;scala-uri">link</a>)</p>
+					</li>
+					<li class="section-sub section-sub-publication">
+						<h3><a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;spray-actor-per-request">spray-actor-per-request (135 stars, 28 forks)</a></h3>
+						<h4>  </h4>
+						<p>Example spray application that uses the actor per request model (<a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;spray-actor-per-request">link</a>)</p>
+					</li>
+					<li class="section-sub section-sub-publication">
+						<h3><a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;pre-canned">pre-canned (33 stars, 16 forks)</a></h3>
+						<h4>  </h4>
+						<p>Mocking HTTP services on spray-can for integration testing (<a href="https:&#x2F;&#x2F;github.com&#x2F;NET-A-PORTER&#x2F;pre-canned">link</a>)</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="success" id="education">
+       	<div class="container">
+           	<div class="row">
+               	<div class="col-lg-12 text-center">
+                   	<h2>Education</h2>
+                   	<hr class="star-light">
+               	</div>
+           	</div>
+           	<div class="row">
+			   	<ul>
+					<li class="section-sub section-sub-education">
+						<h3>edX</h3>
+						<h4>February 2019 - March 2019</h4>
+						<p>
+							Programming Reactive Systems (100%)
+								<a style="margin-left:10px; font-size:15px; border-bottom: 1px dotted #fff;" href="https://courses.edx.org/certificates/3ff2ca460a844de1899f9051bd0f70c2">View Certificate</a>
+						</p>
+					</li>
+					<li class="section-sub section-sub-education">
+						<h3>Scaled Agile</h3>
+						<h4>February 2019 - March 2019</h4>
+						<p>
+							Certified SAFe 4 Practitioner (84%)
+								<a style="margin-left:10px; font-size:15px; border-bottom: 1px dotted #fff;" href="https://www.youracclaim.com/badges/d1fb87f9-40a6-4b84-9474-c0c72158a69c/public_url">View Certificate</a>
+						</p>
+					</li>
+					<li class="section-sub section-sub-education">
+						<h3>Coursera</h3>
+						<h4>November 2013 - January 2014</h4>
+						<p>
+							Principles of Reactive Programming (100%, Distinction)
+						</p>
+					</li>
+					<li class="section-sub section-sub-education">
+						<h3>Coursera</h3>
+						<h4>September 2013 - November 2013</h4>
+						<p>
+							Functional Programming Principles in Scala (100%, Distinction)
+						</p>
+					</li>
+					<li class="section-sub section-sub-education">
+						<h3>Typesafe</h3>
+						<h4>March 2013 - March 2013</h4>
+						<p>
+							Scaling up with Akka and Scala
+						</p>
+					</li>
+					<li class="section-sub section-sub-education">
+						<h3>Solent University</h3>
+						<h4>September 2003 - June 2006</h4>
+						<p>
+							Software Engineering (First Class Honours)
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests">
+       	<div class="container">
+           	<div class="row">
+               	<div class="col-lg-12 text-center">
+                   	<h2>Interests</h2>
+                   	<hr class="star-primary">
+               	</div>
+           	</div>
+           	<div class="row">
+			   	<ul>
+					<li class="section-sub section-sub-interest">
+						<h3 class="skills">Board Gaming</h3>
+						<ul>
+							<li>Established gaming groups at Barclaycard, HMRC and Net-A-Porter</li>
+						</ul>
+					</li>
+					<li class="section-sub section-sub-interest">
+						<h3 class="skills">Internet of Things</h3>
+						<ul>
+							<li><a href='http://theon.github.io/plant-watering-with-arduino.html'>Arduino Chilli Plant Watering System</a></li>
+							<li>Home Automation with Samsung SmartThings, ZWave, Raspberry Pi</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+    <footer class="text-center">
+        <div class="footer-above">
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>    
+
+</body>
+</html>
