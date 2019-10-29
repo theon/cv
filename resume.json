@@ -90,7 +90,7 @@
     "endDate": "2017-01-27",
     "summary": "One of four Principal Developers in a 300 strong IT team. Working in a agile environment, shaping the technical direction of the Product Team by building available, scalable and fault tolerant applications that expose product data to the customer",
     "highlights": [
-      "Scala, Java, Akka, Spray, Gatling, Git",
+      "Java, Scala, Akka, Spray, Solr, Gatling, Git",
       "AWS EC2, Autoscaling, CloudFormation, CloudWatch, S3",
       "Successfully served thousands of req/sec from the Net-A-Porter RESTful product API on sale days",
       "Ran internal <a href='https://github.com/NET-A-PORTER/scala-beginner-workshop'>Scala workshops</a> many times over the last two years for around 100 people"
@@ -103,7 +103,7 @@
     "endDate": "2014-11-01",
     "summary": "Member of the Product Team, building the Net-A-Porter product API",
     "highlights": [
-      "Scala, Akka, Spray, Solr",
+      "Java, Scala, Akka, Spray, Solr, Gatling, Git",
       "Committer to the popular spray/akka-http library, contributing <a href='https://github.com/spray/spray/commit/98365ff0cc3fa7448bd4e0f59d80804c9ed48445'>redirection support</a>",
       "Active member of the Net-A-Porter <a href='http://techblog.net-a-porter.com/author/i-forsey/'>techblog</a>"
     ]
