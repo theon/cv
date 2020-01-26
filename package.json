@@ -1,7 +1,7 @@
 {
   "name": "jsonresume-theme-lemonlabs",
   "version": "1.0.0",
-  "description": "JSON Resume theme following the lemonlabs.io website",
+  "description": "JSON Resume theme following the lemonlabs.io website styling",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,9 @@
   "author": "Ian Forsey",
   "license": "MIT",
   "dependencies": {
-    "gravatar": "^1.0.6",
     "lodash": "^4.17.15",
-    "mustache": "2.3.0",
-    "resume-schema": "0.0.11",
-    "tarball-extract": "0.0.3"
+    "mustache": "4.0.0",
+    "resume-schema": "0.0.18"
   },
   "repository": {
     "type": "git",
