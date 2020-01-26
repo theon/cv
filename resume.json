@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Ian Forsey",
-    "label": "Java/Scala Developer",
+    "label": "Scala Developer",
     "picture": "http://theon.github.io/cv/avatar.jpg",
     "email": "ian@lemonlabs.io",
     "phone": "07825 051 251",
@@ -9,7 +9,7 @@
     "website": "https://lemonlabs.io",
     "websiteLabel": "lemonlabs.io",
     "pdfLink": "https://theon.github.io/cv/ian-forsey-resume.pdf",
-    "summary": "Hi, I'm Ian and I love software development!<br /><br />I've recently enjoyed working with Java in the fintech industry at Barclaycard, whilst <a href=\"https://lemonlabs.io/opensource/\">maintaining an opensource project</a> in my spare time. Prior to that I introduced Scala to Net-A-Porter in 2011 and drove the company's investment in Scala over the following five years by providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production",
+    "summary": "Hi, I'm Ian and I love Scala!<br /><br />, I am current working with Disney Streaming Services, whilst <a href=\"https://lemonlabs.io/opensource/\">maintaining an opensource project</a> in my spare time. Prior to that I introduced Scala to Net-A-Porter in 2011 and drove the company's investment in Scala over the following five years by providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -35,6 +35,31 @@
     }]
   },
   "work": [{
+    "company": "Disney Streaming Services",
+    "position": "Senior Scala Developer",
+    "website": "https://disneyplus.com/",
+    "startDate": "2019-11-18",
+    "summary": "Senior Scala Developer working on Disney+",
+    "highlights": [
+      "AWS, Scala, cats, Git"
+    ]
+  },{
+    "company": "Equal Experts",
+    "position": "Asscociate",
+    "website": "https://equalexperts.com",
+    "startDate": "2017-02-20",
+    "summary": "Associate consultant in the Equal Experts network",
+    "highlights": []
+  },{
+    "company": "Lemon Labs",
+    "position": "Director",
+    "website": "https://lemonlabs.io",
+    "startDate": "2017-02-03",
+    "summary": "Helping companies with their Scala and Java projects",
+    "highlights": [
+      "Contracting and building <a href=\"https://lemonlabs.io/opensource/\">opensource software</a>"
+    ]
+  },{
     "company": "Barclaycard",
     "position": "Senior Java Developer",
     "website": "https://www.barclaycard.co.uk",
@@ -45,15 +70,6 @@
       "Implementing new features for Barclaycard's Smartpay payment gateway",
       "Java, Oracle 12c, Git",
       "Became a certfied SAFe practioner"
-    ]
-  },{
-    "company": "Lemon Labs",
-    "position": "Director",
-    "website": "https://lemonlabs.io",
-    "startDate": "2017-02-03",
-    "summary": "Helping companies with their Scala and Java projects",
-    "highlights": [
-      "Contracting and building <a href=\"https://lemonlabs.io/opensource/\">opensource software</a>"
     ]
   },{
     "company": "Barclaycard",

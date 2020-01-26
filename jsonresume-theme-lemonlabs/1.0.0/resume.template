@@ -491,7 +491,7 @@ li.section-sub-interest li {
                 			<div class="col-lg-4">
 								{{#phoneBool}}
 									<h3>
-										<i class="fa fa-envelope" aria-hidden="true"></i>
+										<i class="fa fa-phone" aria-hidden="true"></i>
 										<a href="tel:{{basics.phoneInternational}}">{{basics.phone}}</a>
 									</h3>
 								{{/phoneBool}}
@@ -499,7 +499,7 @@ li.section-sub-interest li {
 							<div class="col-lg-4">
 								{{#emailBool}}
 									<h3>
-										<i class="fa fa-phone" aria-hidden="true"></i>
+										<i class="fa fa-envelope" aria-hidden="true"></i>
 										<a href="mailto:{{basics.email}}">{{basics.email}}</a>
 									</h3>
 								{{/emailBool}}
