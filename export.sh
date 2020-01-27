@@ -8,7 +8,7 @@ THEME=jsonresume-theme-lemonlabs
 GLOBAL_NODE_MODULES="/usr/local/lib/node_modules"
 
 if [ ! -d "$GLOBAL_NODE_MODULES/$THEME" ]; then
-	ln -s "$BASE_DIR" "$GLOBAL_NODE_MODULES/$THEME"
+  ln -s "$BASE_DIR" "$GLOBAL_NODE_MODULES/$THEME"
 fi
 
 # Export HTML
