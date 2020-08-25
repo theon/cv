@@ -15,7 +15,7 @@ fi
 resume export --theme lemonlabs index.html
 
 # Export PDF - (npm install -g chrome-headless-render-pdf)
-resume serve &
+python -m SimpleHTTPServer 4000 &
 RESUME_SERVE_PID=$!
 chrome-headless-render-pdf  --url=http://localhost:4000 --pdf=ian-forsey-resume.pdf
 kill -9 $RESUME_SERVE_PID

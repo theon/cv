@@ -9,7 +9,7 @@
     "website": "https://lemonlabs.io",
     "websiteLabel": "lemonlabs.io",
     "pdfLink": "https://theon.github.io/cv/ian-forsey-resume.pdf",
-    "summary": "Hi, I'm Ian and I love Scala!<br /><br /> I am current working with Disney Streaming Services, whilst <a href=\"https://lemonlabs.io/opensource/\">maintaining an opensource project</a> in my spare time. Prior to that I introduced Scala to Net-A-Porter in 2011 and drove the company's investment in Scala over the following five years by providing beginner Scala workshops for near 100 employees, <a href='http://theon.github.io/cv#opensource'>opensourcing</a> as much as possible, <a href='http://theon.github.io/cv#events'>speaking</a> about Net-A-Porter's use of Scala at LSUG and Scala eXchange. By 2015 Net-A-Porter had 15+ Scala applications in production",
+    "summary": "Hi, I'm Ian and I love Scala!<br /><br />I am currently looking for a fully remote scala contracting position.<br /><br />I am an active maintainer of <a href='http://theon.github.io/cv#opensource'>opensource scala projects</a>, have been <a href='http://theon.github.io/cv#events'>a speaker</a> at scala conferences and have provided both scala and git training workshops at previous workplaces",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -39,15 +39,20 @@
     "position": "Senior Scala Developer",
     "website": "https://disneyplus.com/",
     "startDate": "2019-11-18",
+    "endDate": "2020-06-19",
     "summary": "Senior Scala Developer working on Disney+",
     "highlights": [
-      "AWS, Scala, cats, Git"
+      "Scala, cats, AWS, DynamoDB, Git, Docker, gatling",
+      "Designing and implementing performant, high throughput, RESTful APIs for Disney+",
+      "Functional programming style using cats with tagless final encoding",
+      "Designed and deployed production AWS infrastructure"
     ]
   },{
     "company": "Equal Experts",
     "position": "Asscociate",
     "website": "https://equalexperts.com",
     "startDate": "2017-02-20",
+    "endDate": "2020-06-19",
     "summary": "Associate consultant in the Equal Experts network",
     "highlights": []
   },{
@@ -131,7 +136,6 @@
     "summary": "Member of the Labs Team working on both long term project, as well as building prototypes and proof of concepts using a variety of different languages and technologies",
     "highlights": [
       "Scala, Akka, Spray, MySql, Lift, Java, Spring",
-      "Project work including an iPad magazine, a GoogleTV shopping app, visual similarity product indexer and new Wish List stack",
       "Introduced Scala to the company",
       "Instigated the company move to a microservice architecture"
     ]
@@ -190,9 +194,9 @@
     "courses": []
   }],
   "publications": [{
-    "name": "scala-uri (144 stars, 21 forks)",
+    "name": "scala-uri (198 stars, 29 forks)",
     "website": "https://github.com/lemonlabsuk/scala-uri",
-    "summary": "scala-uri is is a small Scala library that helps you work with URIs. It's used by almost <a href='https://github.com/search?utf8=%E2%9C%93&amp;q=scala-uri+extension%3Asbt&amp;type=Code&amp;ref=advsearch&amp;l=&amp;l='>400 open source projects</a> on github. Check out the <a href='https://lemonlabs.io/opensource/'>lemonlabs website</a> to see which companies are using scala-uri, such as theguardian.com on their homepage!"
+    "summary": "scala-uri is is a small Scala library that helps you work with URIs. It's used by over <a href='https://github.com/search?utf8=%E2%9C%93&amp;q=scala-uri+extension%3Asbt&amp;type=Code&amp;ref=advsearch&amp;l=&amp;l='>450 open source projects</a> on github. Check out the <a href='https://lemonlabs.io/opensource/'>lemonlabs website</a> to see which companies are using scala-uri, such as theguardian.com on their homepage!"
   },
   {
     "name": "spray-actor-per-request (135 stars, 28 forks)",
