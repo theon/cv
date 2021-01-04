@@ -7,3 +7,4 @@ jsonresume-theme-lemonlabs/1.0.0/node_modules
 public/
 node_modules/
 package-lock.json
+.metals
