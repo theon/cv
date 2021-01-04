@@ -48,14 +48,6 @@
       "Designed and deployed production AWS infrastructure"
     ]
   },{
-    "company": "Equal Experts",
-    "position": "Asscociate",
-    "website": "https://equalexperts.com",
-    "startDate": "2017-02-20",
-    "endDate": "2020-06-19",
-    "summary": "Associate consultant in the Equal Experts network",
-    "highlights": []
-  },{
     "company": "Lemon Labs",
     "position": "Director",
     "website": "https://lemonlabs.io",
@@ -66,7 +58,7 @@
     ]
   },{
     "company": "Barclaycard",
-    "position": "Senior Java Developer",
+    "position": "Senior Software Engineer",
     "website": "https://www.barclaycard.co.uk",
     "startDate": "2018-10-29",
     "endDate": "2019-04-26",
