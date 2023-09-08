@@ -9,7 +9,7 @@
     "website": "https://lemonlabs.io",
     "websiteLabel": "lemonlabs.io",
     "pdfLink": "https://theon.github.io/cv/ian-forsey-resume.pdf",
-    "summary": "Hi, I'm Ian and I love Scala!<br /><br />I am currently looking for a scala contracting position.<br /><br />I have worked with Scala for nine years and am author and active maintainer of <a href='https://bit.ly/3lLDnOX'>opensource scala projects</a>, have been <a href='https://bit.ly/350uHOP'>a speaker</a> at scala conferences and have provided both scala and git training workshops at previous workplaces",
+    "summary": "Hi, I'm Ian and I love Scala!<br /><br />I am currently looking for a scala contracting position.<br /><br />I have worked with Scala for thirteen years and am author of <a href='https://bit.ly/3lLDnOX'>opensource scala projects</a>, have been <a href='https://bit.ly/350uHOP'>a speaker</a> at scala conferences and have provided both scala and git training workshops at previous workplaces",
     "location": {
       "city": "Fleet",
       "region": "Hampshire",
@@ -35,10 +35,24 @@
     }]
   },
   "work": [{
+    "company": "Disney Streaming Services",
+    "position": "Senior Scala Developer",
+    "website": "https://disneyplus.com/",
+    "startDate": "2021-03-25",
+    "endDate": "2023-06-08",
+    "summary": "Senior Scala Developer working on Disney+",
+    "highlights": [
+      "Scala, cats, AWS, DynamoDB, Git, Docker, gatling",
+      "Designing and implementing performant, high throughput, RESTful APIs for Disney+",
+      "Functional programming style using cats with tagless final encoding",
+      "Designed and deployed production AWS infrastructure"
+    ]
+  },{
     "company": "Sky UK Limited",
     "position": "Senior Scala Developer",
     "website": "https://www.sky.com/",
     "startDate": "2020-10-19",
+    "endDate": "2021-03-24",
     "summary": "Senior Scala Developer working on NOWTV",
     "highlights": [
       "Scala, Play, Kubenetes, Docker, Git, gatling",
